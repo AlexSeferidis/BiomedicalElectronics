@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 0088b680-8d97-418a-8171-39ee4b0eac40
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/AlexSeferidis/BiomedicalElectronics
+  abbreviations:
+    EEG: Electroencephalogram
+    ECG: Electrocardiogram
+    EMG: Electromyogram
+    GSR: Galvanic Skin Response
+    EIT: Electrical Impedance Tomography
+    ANS: Autonomic Nervous System
+    CNS: Central Nervous System
+    MRI: Magnetic resonance imaging 
+
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
