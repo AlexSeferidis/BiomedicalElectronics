@@ -107,9 +107,184 @@ The polar heads and nonpolar tails create a dual nature or amphipathic property,
 
 ### Potassium and Sodium Ion Channels (Na/K Pump)
 
+Ion channels are proteins embedded in the cell membrane that create pathways for specific ions, such as sodium, potassium, calcium and chlorine to move in and out of cells.
 
 ```{figure} ..\Images\L2\nak.png
 :label: ionchannel
 :alt: PotassiumSodiumIonChannels
 :align: center
 ```
+
+These channels (as seen [here](#ionchannel)) are highly selective, typically only choosing one type of ion to pass through them and can either be gated or leak channels.
+
+**So how do ion channels generate currents?**
+
+1. **Resting Membrane Potential**
+
+    * Cells (especially neurons and muscle cells) maintain a difference in electric potential between the inside and outside of the cell membrane called the **resting membrane potential**.
+
+    * This potential exists because of differences in ion concentrations across the membrane and the selective permeability of the membrane caused by the ion pumps
+
+2. **Ion Movement**
+
+    * Ion channels allow specific ions to diffuse (high to low concentration) toward their opposite charges, e.g sodium ions (+ve charged) will naturally move towards the negative interior of a cell when channels open
+
+    * When an ion channel opens, ions can move across the cell membrane, this movement of charged particles creates a current
+
+```{hint} Types of Ion Channels
+:class: dropdown
+
+* **Voltage-gated channels**: These open in response to changes in membrane potential. When a specific voltage threshold is reached, the channels open, allowing ions to flow and create a current.
+
+* **Ligand-gated channels**: These open when a specific molecule (ligand), such as a neurotransmitter, binds to them, allowing ions to flow and generate current.
+
+The opening and closing of these channels are tightly regulated, which in turn controls the timing and amplitude of the current produced.
+```
+
+### Transport Processes
+
+What forces things to move?
+
+```{figure} ..\Images\L2\transportproc.png
+:label: trans
+:alt: Transport Processes
+:align: center
+```
+
+This brings us to the **Nernst equation** (see [here](#nernst)), which relates the concentration gradient of an ion across a membrane to the electric potential at which that ion will be at equilibrium, deriving from:
+
+```{math}
+\text{Diffusion current } = \text{ drift current}
+```
+
+We get the following equation:
+
+```{math}
+:label: nernst
+V_k = -\frac{RT}{z_{k}F}ln(\frac{c_{i,k}}{c_{o,k}})
+```
+
+Where:
+
+* $V_k$ is the **equilibrium potential** for the ion, in volts (V)
+* $R$ is the **universal gas constant**, equal to 8.314 J/(mol * K)
+* $T$ is the **temperature**, in Kelvin (K)
+* $z_k$ is the **valence** (charge) of the ion
+* $F$ is the **Faraday constant** which is approximately 96'485 C/mol
+* $c_{i,k}$ and $c_{o,k}$ represent the *concentrations** of the ion inside and outside the cell
+
+## Neural Signalling and Communication
+
+Let's discuss how what we've now learnt relates to how the cells in our brain communicate with each other
+
+### The Neuron
+
+A diagram of a neuron can be seen [here](#neuron)
+
+```{figure} ..\Images\L2\neurondiagram.png
+:label: neuron
+:alt: Diagram of a Neuron
+:align: center
+```
+
+Let's focus on the most important parts:
+
+TO DO
+
+### Transmission
+
+In order to explain how neural signalling works we will look at a **very important** [graph](#action). This describes the **action potential** of a neuron, which is an electric signal that travels along the axon of a neuron.
+
+```{figure} ..\Images\L2\actionpoten.png
+:label: action
+:alt: Action Potential Graph
+:align: center
+```
+
+1. **Resting Membrane Potential**
+
+    * Before an action potential can occur, a neuron maintains a **resting membrane potential** of approximately **-70 mV**
+    * This is maintained due to **potassium** leak channels, allowing potassium ions to move out of the neuron and **sodium-potassium pumps** which actively transports 3 sodium ions out of the cell and 2 potassium ions in using ATP
+
+2. **Depolarisation**
+
+    * The action potential is triggered when the **membrane potential** of a neuron becomes more positive, reaching a threshold of about **-50 mV**
+    * This causes the **voltage-gated sodium channels** to open, causing sodium ions to rush into the cell
+    * This causes the inside of the cell to become much more +ve (as Na+), resulting in depolarisation causing a spike of up to **+40 mV**
+
+3. **Peak**
+
+    * At the peak of the action potential the **voltage-gated sodium channels** start to **inactivate**, preventing further influx of sodium ions
+
+4. **Repolarisation**
+
+    * To bring the membrane potential back down, **voltage-gated potassium channels** open, these open slower than the sodium channels and therefore activate just as the sodium channels inactivate.
+    * As potassium ions now leave the cell, it causes the membrane potential to become more negative (as K+)
+
+5. **Refractory Period / Hyperpolarisation**
+
+    * The potassium channels do not close immediately after reaching the resting potential, as a result the membrane potential often becomes more negative than the resting potential
+    * And after it returns to the resting membrane potential
+
+```{figure} ..\Images\L2\synapse.png
+:label: syn
+:alt: synapse
+:align: center
+```
+
+6. **Synapse**
+
+    * Once the action potential has travelled along the axon and reaches the **presynaptic terminal** a similar process occurs
+    * depolarisation causes **voltage-gated calcium channels** to activate
+    * This in turn triggers the release of neurotransmitters allowing for the synaptic current to occur (which is a chemical process)
+
+## The Nervous System
+
+Zooming out now we can see how this kind of behavior can impact our whole body and system.
+
+```{figure} ..\Images\L2\nervous.png
+:label: ner
+:alt: Nervous system
+:align: center
+```
+
+From [this image](#ner) we can see that the Nervous System, dictated by signals and current that we previously discussed, is responsible for A LOT. It is divided between the CNS and PNS and takes up the responsibilities of:
+
+* **Sensing the Environment**: It detects changes inside and outside the body using sensory receptors (e.g., light, sound, temperature, pressure).
+* **Processing Information**: It interprets and integrates sensory information in the brain to make sense of what's happening.
+* **Initiating Responses**: It sends signals to muscles and glands to respond to sensory input. This includes voluntary actions, like moving an arm, and involuntary actions, like increasing heart rate.
+
+You can see how important electronics can be therefore with neurological disorders
+
+## Typical Biopotentials (EEG, ECG, etc)
+
+EEG measures the brain’s electrical activity from the scalp from the activity of billions of neurons. ECG measures galvanically the electrical activity of the heart.
+
+We can see how these signals can range:
+
+| Signal | Amplitude (mV) | Bandwidth (Hz) |
+| :----: | :------------: | :------------: |
+| EEG    | 0.001-0.01     | 0.5-40         |
+| ECG    | 1-5            | 0.05-100       |
+
+```{figure} ..\Images\L2\ranges.png
+:label: rng
+:alt: Ranges of different Biopotentials
+:align: center
+```
+
+And obviously these can range due to [a number of factors](#systemcon)
+
+```{warning} WARNING!!
+Make sure you remember these ranges and frequencies!!!
+```
+## Summary
+
+* The body generates a lot of electrical/physical/chemical
+signals which give off important information we need to
+detect to either help monitor, diagnose or treat a medical
+condition.
+* These originate from chemical, bio-physical processes.
+* Electronic instrumentation is vital in detecting these signals.
+* Proper interfacing with signals of biological origin is still a very
+challenging task !

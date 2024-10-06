@@ -15,7 +15,9 @@ project:
     EIT: Electrical Impedance Tomography
     ANS: Autonomic Nervous System
     CNS: Central Nervous System
-    MRI: Magnetic resonance imaging 
+    MRI: Magnetic resonance imaging
+    ATP: Adenosine Triphosphate
+    PNS: Peripheral Nervous System
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
