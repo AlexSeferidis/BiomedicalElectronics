@@ -189,7 +189,13 @@ A diagram of a neuron can be seen [here](#neuron)
 
 Let's focus on the most important parts:
 
-TO DO
+* **Axon** - The axon is a long, thin extension of the neuron that carries electrical impulses (action potentials) away from the soma (cell body) toward the axon terminals.
+
+* **Axon Terminal** - The axon terminal, also called the synaptic terminal or terminal bouton, is the endpoint of the axon where the neuron communicates with other cells.
+
+* **Dendrite** - Dendrites are branch-like extensions of the neuron that receive signals (typically in the form of neurotransmitters) from other neurons.
+
+* **Soma** - The soma, or cell body, is the main part of the neuron that contains the nucleus and other organelles.
 
 ### Transmission
 
@@ -208,7 +214,8 @@ In order to explain how neural signalling works we will look at a **very importa
 
 2. **Depolarisation**
 
-    * The action potential is triggered when the **membrane potential** of a neuron becomes more positive, reaching a threshold of about **-50 mV**
+    * The action potential is triggered when the **membrane potential** of a neuron becomes more positive, reaching a threshold of about **-50 mV** 
+    * This is usually caused by stimulus from a neighbouring cell
     * This causes the **voltage-gated sodium channels** to open, causing sodium ions to rush into the cell
     * This causes the inside of the cell to become much more +ve (as Na+), resulting in depolarisation causing a spike of up to **+40 mV**
 

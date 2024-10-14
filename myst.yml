@@ -18,6 +18,14 @@ project:
     MRI: Magnetic resonance imaging
     ATP: Adenosine Triphosphate
     PNS: Peripheral Nervous System
+    EMF: Electromagnetic field
+    LFP: Local Field Potential
+    CMRR: Common Mode Rejection Ratio
+    ECoG: Electrocorticogram
+    PSRR: Power Supply Rejection Ratio
+    BPF: Bandpass Filter
+    HPF: Highpass Filter
+    LPF: Lowpass Filter
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
