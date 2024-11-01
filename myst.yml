@@ -26,6 +26,18 @@ project:
     BPF: Bandpass Filter
     HPF: Highpass Filter
     LPF: Lowpass Filter
+    ISFET:  Ion-Sensitive Field Effect Transistor
+    SNR: Signal-to-Noise Ratio
+    CHEMFET: Chemically Sensitized Field Effect Transistor
+    LOD: Limit of Detection
+    SHE: Standard Hydrogen Electrode
+    ISE: Ion-Selected Electrode
+    DAC: Digital to Analogue Converter
+    ADC: Analogue to Digital Converter
+    CMOS: Complementary Metal-Oxide Semiconductor
+    MOSFET: Metal-Oxide Semiconductor Field-Effect Transistor
+    ASIC: Application-Specific Integrated Circuit
+    CCM: Constant Charge Method
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:

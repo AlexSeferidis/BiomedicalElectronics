@@ -62,7 +62,7 @@ We have seen already the [ranges of freq and signal strength of different biopot
 
 ## ECG
 
-Our heart pumps due to the rhythmic electrical activity to circulate oxygenated around our body. It all starts in the atrium and then our through the ventricles. We get an initial sinusoidal boom which resonates down into the rest of the heart, providing a superposition kind of effect, we can see this here[#heartsig] in the final waveform.
+Our heart pumps due to the rhythmic electrical activity to circulate oxygenated around our body. It all starts in the atrium and then our through the ventricles. We get an initial sinusoidal boom which resonates down into the rest of the heart, providing a superposition kind of effect, we can see this [here](#heartsig) in the final waveform.
 
 ```{figure} ..\Images\L3\pqrst.png
 :label: heartsig
@@ -485,7 +485,7 @@ So now we have really high I/P impedance from the opamps, we can then add this b
 Giving us [our final diagram](#dia2). This now has a **high I/P impedance** and **high CMRR**. The gain is normally **tuned by a variable resistor** in place of $R_1$.
 
 ```{figure} ..\Images\L3\DIA2.png
-:label: dia1
+:label: dia2
 :alt: Difference Amplifier 1 Diagram
 :align: center
 ```
@@ -494,7 +494,7 @@ Giving us [our final diagram](#dia2). This now has a **high I/P impedance** and 
 
 What can we do to reject 50/60 Hz noise?
 
-Common mode interference would be completely rejected by the instrumentation amplifier if the matching were ideal, however this is often not the case. A clever trick is the **"driven right leg circuit**, which works to enhance the CMRR for ECG.
+Common mode interference would be completely rejected by the instrumentation amplifier if the matching were ideal, however this is often not the case. A clever trick is the **"driven right leg circuit"**, which works to enhance the CMRR for ECG.
 
 **The idea being the Average of the $V_{CM}$ is inverted and driven back to the body via a reference electrode**
 
@@ -571,7 +571,7 @@ To prevent loading we add a voltage buffer op-amp between stages
 
 ### Op-Amp Filter
 
-This is an active filter which can also amplify the signal (with a gain of $1+\frac{R_1}{R_2}). This also does not do loading of successive stages. Unfortunately this is limited by the op-amp's frequency response.
+This is an active filter which can also amplify the signal (with a gain of $1+\frac{R_1}{R_2}$). This also does not do loading of successive stages. Unfortunately this is limited by the op-amp's frequency response.
 
 ```{figure} ..\Images\L3\opampfilters.png
 :label: opampfilters
