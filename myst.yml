@@ -38,6 +38,15 @@ project:
     MOSFET: Metal-Oxide Semiconductor Field-Effect Transistor
     ASIC: Application-Specific Integrated Circuit
     CCM: Constant Charge Method
+    FES: Functional Electrical Stimulation
+    TENS: Transcutaneous Electrical Stimulation
+    tDCS: Transcranial Direct Current Stimulation
+    IFESS: International Functional Electrical Stimulation Society
+    DBS: Deep Brain Stimulation
+    VNS: Vagus Nerve Stimulation
+    TMS: Transcranial Magnetic Stimulation
+    LIFE: Longitudinal Intravascular Electrode
+    TIME: Transversal Intrafascicular Multichannel Electrode
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
