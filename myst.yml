@@ -47,6 +47,18 @@ project:
     TMS: Transcranial Magnetic Stimulation
     LIFE: Longitudinal Intravascular Electrode
     TIME: Transversal Intrafascicular Multichannel Electrode
+    DNA: Deoxyribonucleic Acid
+    RNA: Ribonucleic Acid
+    mRNA: Messenger RNA
+    tRNA: Transfer RNA
+    rRNA: Ribosomal RNA
+    mtDNA: Mitochondria DNA
+    SNP: Single Nucleotide Polymorphisms
+    ssRNA: Single-Stranded RNA
+    PCR: Polymerase Chain Reaction
+    MEM: Microelectromechanical Systems
+    CGMS: Continuous Glucose Monitoring Systems
+    GoX: Glucose Oxidase
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
