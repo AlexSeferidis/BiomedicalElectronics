@@ -59,6 +59,24 @@ project:
     MEM: Microelectromechanical Systems
     CGMS: Continuous Glucose Monitoring Systems
     GoX: Glucose Oxidase
+    BMI: Brain Machine Interface
+    TDM: Time Division Multiplexing
+    CIS: Continuous Interleave Sampling
+    AGC: Automatic Gain Control
+    FSM: Finite State Machine
+    ABI: Auditory Brainstem Implants
+    INI: Intra-Neural Implant
+    BCI: Brain Computer Interface
+    EAP: Extracellular Action Potentials
+    PCA: Principal Component Analysis
+    MUA: Multi-Unit Activity
+    SUA: Single-Unit Activity
+    FFT: Fast Fourier Transform
+    LGN: Lateral Geniculate Nucleus
+    SoC: System on Chip
+    DPSK: Differential Phase Shift Keying
+    FDA: Food and Drug Administration
+    MHRA: Medicines and Healthcare products Regulatory Agency
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
