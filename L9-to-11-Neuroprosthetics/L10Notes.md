@@ -55,9 +55,9 @@ We have this important distinction between wearables and implantables.
     * Brain computer interfaces – eg. Gaming (Emotiv)
     * Merging human/AI
 
-```{figure} ..\Images\L10\BCICMIapplications.png
-:label: BCICMIapplications
-:alt: BCICMIapplications
+```{figure} ..\Images\L10\BCIBMIapplications.png
+:label: BCIBMIapplications
+:alt: BCIBMIapplications
 :align: center
 ```
 

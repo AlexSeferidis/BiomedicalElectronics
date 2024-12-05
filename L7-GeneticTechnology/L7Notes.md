@@ -339,7 +339,7 @@ Here:
 * WE1 - Target DNA molecule labeled with enzyme molecule
 * WE2 - Contains no DNA and can be used as a reference for differential measurement
 
-And [here](#fourelecop) you can see the output. We can see that the slope in the derivative ($\frac{\delta \text{current}}{\delta \text{time}}) signifies the presence of the target DNA. We also can see the **elimination of electrochemical crosstalk**.  
+And [here](#fourelecop) you can see the output. We can see that the slope in the derivative ($\frac{\delta \text{current}}{\delta \text{time}}$) signifies the presence of the target DNA. We also can see the **elimination of electrochemical crosstalk**.  
 
 ```{figure} ..\Images\L7\fourelecop.png
 :label: fourelecop
