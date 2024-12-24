@@ -31,7 +31,7 @@ project:
     CHEMFET: Chemically Sensitized Field Effect Transistor
     LOD: Limit of Detection
     SHE: Standard Hydrogen Electrode
-    ISE: Ion-Selected Electrode
+    ISE: Ion-Selective Electrode
     DAC: Digital to Analogue Converter
     ADC: Analogue to Digital Converter
     CMOS: Complementary Metal-Oxide Semiconductor
@@ -77,6 +77,15 @@ project:
     DPSK: Differential Phase Shift Keying
     FDA: Food and Drug Administration
     MHRA: Medicines and Healthcare products Regulatory Agency
+    LVAD: Left Ventricular Assist Device
+    TEC: Thermoelectric Cooler
+    TEG: Thermoelectric Generator
+    IPT: Inductive Power Transfer
+    ICNIRP: International Commission on Non-Ionizing Radiation Protection
+    WHO: World Health Organization
+    ELV: Exposure Limit Value
+    SAR: Specific Absorption Rate
+    FEM: Finite Element Method
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
