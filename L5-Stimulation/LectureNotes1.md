@@ -34,7 +34,7 @@ Devices designed to aid in muscle strengthening and conditioning, and in other a
 
 [Here](#neuralimplantdiagram) is a block diagram of a neural implant system 
 
-```{figure} ..\Images\L5\neuralimplant.png
+```{figure} ../Images/L5/neuralimplant.png
 :label: neuralimplantdiagram
 :alt: Neural Implant Block Diagram
 :align: center
@@ -44,7 +44,7 @@ This is a device which looks to replace the functionality of something not worki
 
 Let's have a look at the advantages and disadvantages of TENS vs Implants.
 
-```{figure} ..\Images\L5\tensvsimplants.png
+```{figure} ../Images/L5/tensvsimplants.png
 :label: tenvimp
 :alt: TENS vs Implants Table
 :align: center
@@ -105,7 +105,7 @@ A medical device that produces electrical impulses which regulate the heart rhyt
 
 Could have multiple electrodes, external control unit and can be combined with a defibrilator
 
-```{figure} ..\Images\L5\pacemaker.png
+```{figure} ../Images/L5/pacemaker.png
 :label: pacemake
 :alt: Pacemaker
 :align: center
@@ -116,7 +116,7 @@ It's imperative that the muscles within the heart work synchronously in order to
 
 **So how does the pacemaker work?**
 
-```{figure} ..\Images\L5\pacemakerheart.png
+```{figure} ../Images/L5/pacemakerheart.png
 :label: pacemakeheart
 :alt: Pacemaker Heart Diagram
 :align: center
@@ -132,7 +132,7 @@ Now we will look at some applications of electrical stimualtion
 
 This is a very cutting edge device for pacemaker technology, it's compact and lasts for a significant period of time. The only major downside is the fact majorly invasive surgery is required for it to be removed after it has been implanted.
 
-```{figure} ..\Images\L5\medtronic.png
+```{figure} ../Images/L5/medtronic.png
 :label: medtron
 :alt: Medtronic Pacemaker Info
 :align: center
@@ -144,7 +144,7 @@ Generally applied to hand/arm or leg/foot movement, but can also be used for bla
 
 [The example below](#pFES) shows the kind of setup used for paralyses muscles in the hand.
 
-```{figure} ..\Images\L5\paraFES.png
+```{figure} ../Images/L5/paraFES.png
 :label: pFES
 :alt: Paralysed FES Diagram
 :align: center
@@ -158,7 +158,7 @@ Generally applied to hand/arm or leg/foot movement, but can also be used for bla
 
 * The generator must be replaced every three to five years, the life of the battery. 
 
-```{figure} ..\Images\L5\DBS.png
+```{figure} ../Images/L5/DBS.png
 :label: DBS
 :alt: DBS Images
 :align: center
@@ -168,7 +168,7 @@ Generally applied to hand/arm or leg/foot movement, but can also be used for bla
 
 The vagus nerve stimulator power pack is implanted near the collarbone, and wired to the left side nerve -- always the left, since the right side goes directly to the heart.
 
-```{figure} ..\Images\L5\vagusnervestim.png
+```{figure} ../Images/L5/vagusnervestim.png
 :label: vagusnerve
 :alt: Vagus Nerve Image
 :align: center
@@ -192,7 +192,7 @@ For each patient the intensity and frequency of the pulse and device settings is
 * Therapeutic application: Repetitive TMS approved by the FDA in 2008 as a treatment for major depression
 * Research: use in stroke patients and various neurological disorders such as Parkinson’s disease and epilepsy with promising results.
 
-```{figure} ..\Images\L5\TMS.png
+```{figure} ../Images/L5/TMS.png
 :label: TMS
 :alt: TMS Image
 :align: center
@@ -202,7 +202,7 @@ For each patient the intensity and frequency of the pulse and device settings is
 
 Part of the problem why we have problems when interfacing with the neural system is due to the construct of a nerve.
 
-```{figure} ..\Images\L5\nervediagram.png
+```{figure} ../Images/L5/nervediagram.png
 :label: nervediagram
 :alt: Nerve Diagram
 :align: center

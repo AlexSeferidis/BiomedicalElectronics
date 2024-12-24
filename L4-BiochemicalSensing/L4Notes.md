@@ -23,7 +23,7 @@ Good for medical diagnosis and treatment as the body is full of chemical markers
 
 > Chemical sensors are small-sized devices comprising a recognition element, a transduction element, and a signal processor capable of continuously and reversibly reporting a chemical concentration. 
 
-```{figure} ..\Images\L4\chemsense.png
+```{figure} ../Images/L4/chemsense.png
 :label: csen
 :alt: Chemical Sensor
 :align: center
@@ -101,7 +101,7 @@ Below are our **undesirable characteristics**:
 
 ### Types of Chemical Sensors
 
-```{figure} ..\Images\L4\chemsensetypes.png
+```{figure} ../Images/L4/chemsensetypes.png
 :label: csentypes
 :alt: Chemical Sensor Types
 :align: center
@@ -159,7 +159,7 @@ Here, copper ions $Cu^{2+}$ gain two electrons to form copper metal, so it’s r
 
 ### The Galvanic Cell
 
-```{figure} ..\Images\L4\galvaniccell.png
+```{figure} ../Images/L4/galvaniccell.png
 :label: gcell
 :alt: Galvanic Cell
 :align: center
@@ -210,7 +210,7 @@ In electronics we measure the voltage relative to ground whereas in chemistry th
 
 **Therefore the potential of each ion has been determined with reference to the SHE**
 
-```{figure} ..\Images\L4\ionpotential.png
+```{figure} ../Images/L4/ionpotential.png
 :label: ionpotent
 :alt: Ion Potential Table
 :align: center
@@ -239,7 +239,7 @@ Where:
 
 The net reaction of a voltaic cell constructed from a standard zinc electrode and a standard copper electrode is obtained by adding the two half reactions together (See [table](#ionpotent))
 
-```{figure} ..\Images\L4\exampleredoxpotent.png
+```{figure} ../Images/L4/exampleredoxpotent.png
 :label: exredoxpot
 :alt: Example Redox Potential
 :align: center
@@ -282,7 +282,7 @@ Let's look at the main categories of electrochemical measurement:
 
 #### Naming of Electrodes
 
-```{figure} ..\Images\L4\namingelectrodes.png
+```{figure} ../Images/L4/namingelectrodes.png
 :label: nameelec
 :alt: ElectrodeNames
 :align: center
@@ -303,7 +303,7 @@ Let's look at the main categories of electrochemical measurement:
 
 #### Typical Waveforms
 
-```{figure} ..\Images\L4\CVwaveform.png
+```{figure} ../Images/L4/CVwaveform.png
 :label: CVwave
 :alt: CV Typical Waveforms
 :align: center
@@ -319,7 +319,7 @@ Then we get a **current peak** $i_p$ where the **redox reaction** happens.
 
 #### Potentiostat 
 
-```{figure} ..\Images\L4\potentiostat.png
+```{figure} ../Images/L4/potentiostat.png
 :label: CVpotentstat
 :alt: Potentiostat
 :align: center
@@ -345,7 +345,7 @@ Important to consider when designing the size of your electrodes and the maximum
 
 ### Amperometry
 
-```{figure} ..\Images\L4\3electrodemeasure.png
+```{figure} ../Images/L4/3electrodemeasure.png
 :label: 3elec
 :alt: 3 Electrode Measurement System 
 :align: center
@@ -357,7 +357,7 @@ If this potential is the **redox potential** of the analyte being measured, a **
 
 Current in the circuit is proportional to the rate of generation of electrons. **Current** is therefore **proportional to the concentration of the analyte**.
 
-```{figure} ..\Images\L4\amperometricsensor.png
+```{figure} ../Images/L4/amperometricsensor.png
 :label: ampsense
 :alt: Amperometric Sensor 
 :align: center
@@ -365,7 +365,7 @@ Current in the circuit is proportional to the rate of generation of electrons. *
 
 The most common amperometric sensor is a glucose sensor. The **working electrode** is the one that identifies the glucose. There's no surprise therefore it is the biggest as we want to **maximise the current**.
 
-```{figure} ..\Images\L4\glucosesensor.png
+```{figure} ../Images/L4/glucosesensor.png
 :label: glusense
 :alt: Glucose Sensor 
 :align: center
@@ -373,7 +373,7 @@ The most common amperometric sensor is a glucose sensor. The **working electrode
 
 [Here](#doseresponse) we can see a typical dose response. We are used to having linear curves but every time the concentration is changed, it takes time for the concentration to settle.
 
-```{figure} ..\Images\L4\typicaldoseresponse.png
+```{figure} ../Images/L4/typicaldoseresponse.png
 :label: doseresponse
 :alt: Typical Glucose Sensor Response 
 :align: center
@@ -387,7 +387,7 @@ So we've established for amperometry we need something to apply a **fixed potent
 * Voltage must be stable and not fluctuate with changing current
 * Current must be buffered for further processing / conversion (e.g a A/D converter)
 
-```{figure} ..\Images\L4\amperometrycircuit.png
+```{figure} ../Images/L4/amperometrycircuit.png
 :label: ampcirc
 :alt: Typical Amperometry Circuit 
 :align: center
@@ -395,7 +395,7 @@ So we've established for amperometry we need something to apply a **fixed potent
 
 Below is the typical architecture:
 
-```{figure} ..\Images\L4\amperometricarchitecture.png
+```{figure} ../Images/L4/amperometricarchitecture.png
 :label: amparch
 :alt: Typical Amperometry Architecture 
 :align: center
@@ -421,7 +421,7 @@ Similar to [last week](#elec-intru-inter) when we looked at interfaces, we can r
 
 **NOTE: THIS IS JUST FOR MODELLING PURPOSES**
 
-```{figure} ..\Images\L4\RCcellmodel.png
+```{figure} ../Images/L4/RCcellmodel.png
 :label: rccellmod
 :alt: Electrochemical Cell Model with RC Circuit 
 :align: center
@@ -431,7 +431,7 @@ Similar to [last week](#elec-intru-inter) when we looked at interfaces, we can r
 
 We need to apply a fixed voltage between the reference and working electrode. It should come as no suprise you can use an amplifier.
 
-```{figure} ..\Images\L4\potentiostatcircuit.png
+```{figure} ../Images/L4/potentiostatcircuit.png
 :label: potentcircuit
 :alt: Potentiostat Circuit 
 :align: center
@@ -451,7 +451,7 @@ So the **problem** with this configuration is that we have to **input a negative
 
 That might be ok if you were only using discrete systems, however if we are using CMOS ASIC, for example, then we only work with **positive voltages** so this circuit wouldn't work. The solution is [this circuit](#pospotentiostat)
 
-```{figure} ..\Images\L4\pospotentiostatcircuit.png
+```{figure} ../Images/L4/pospotentiostatcircuit.png
 :label: pospotentiostat
 :alt: Positive Vin Potentiostat Circuit 
 :align: center
@@ -464,7 +464,7 @@ Let's break this down:
 
 There are also implementations where you can ground the counter electrodes. This is often used to measure current, you can stick a differential instrumentation amplifier on the WE node and measure the current going through.
 
-```{figure} ..\Images\L4\groundedCEpotentiostatcircuit.png
+```{figure} ../Images/L4/groundedCEpotentiostatcircuit.png
 :label: gndCEpotentiostat
 :alt: Grounded CE Potentiostat Circuit 
 :align: center
@@ -486,7 +486,7 @@ How do we satisfy the requirement that we need at a ground node, and be nice and
 
 You put what's called a **Trans-Impedance Amplifier**
 
-```{figure} ..\Images\L4\potenttransimpedanceamp.png
+```{figure} ../Images/L4/potenttransimpedanceamp.png
 :label: transimpedance
 :alt: Potentiostat Circuit with Transimpedance Circuit 
 :align: center
@@ -506,7 +506,7 @@ However we have some drawbacks:
 
 So to avoid using a large resistance we can instead use a **capacitor implementation**
 
-```{figure} ..\Images\L4\capacitortransimpedance.png
+```{figure} ../Images/L4/capacitortransimpedance.png
 :label: capactransimpedance
 :alt: Transimpedance Circuit with Capacitor Implementation 
 :align: center
@@ -525,7 +525,7 @@ The beauty of this circuit is that we no longer need big resistors, you can tune
 
 Here's some more potentiostats for reference and example (likely not in exam):
 
-```{figure} ..\Images\L4\referencepotentiostat1.png
+```{figure} ../Images/L4/referencepotentiostat1.png
 :label: referencepotent1
 :alt: Reference Potentiostat 
 :align: center
@@ -543,7 +543,7 @@ On the right we have a similar topology that does exactly the same thing.
 
 We also have the configuration mentioned before to do with adding a differential amplifier.
 
-```{figure} ..\Images\L4\referencepotentiostat2.png
+```{figure} ../Images/L4/referencepotentiostat2.png
 :label: referencepotent2
 :alt: Reference Potentiostat 
 :align: center
@@ -564,7 +564,7 @@ that ground is actually the common mode voltage, whch is typically $V_{DD}/2$.
 * Need to guarantee a stable common mode voltage $V_{DD}/2$
 * I/P drive voltage is limited to $\pm V_{DD}/2$
 
-```{figure} ..\Images\L4\ASIC.png
+```{figure} ../Images/L4/ASIC.png
 :label: ASICimp
 :alt: ASIC Potentiostat 
 :align: center
@@ -579,7 +579,7 @@ Here we actually can use a negative potential because the difference $V_{DD}/2 -
 
 The circuit below is how how we would generate the voltage on the chip. We need to ensure that there is stable voltage reference generation on chip.
 
-```{figure} ..\Images\L4\voltagegen.png
+```{figure} ../Images/L4/voltagegen.png
 :label: voltagegenerator
 :alt: Integrated Voltage Reference Generation 
 :align: center
@@ -594,7 +594,7 @@ Potentiometric is a measurement of votlages between a reference electrode and an
 
 What is an **ion selective electrode**?
 
-```{figure} ..\Images\L4\ionselectivelectrode.png
+```{figure} ../Images/L4/ionselectivelectrode.png
 :label: ionselect
 :alt: Ion Selective Electrode 
 :align: center
@@ -626,7 +626,7 @@ E_{\text{cell}} = K + \frac{0.05916}{z}log(a_A)_{\text{samp}}
 
 Here's an example of how it works:
 
-```{figure} ..\Images\L4\concentrationcalc.png
+```{figure} ../Images/L4/concentrationcalc.png
 :label: conccalc
 :alt: Concentration Calc 
 :align: center
@@ -642,7 +642,7 @@ We need something that doesn't allow a current to flow but can measure voltage.
 * Requires high I/P impedance and no disruption of the measured potential, i.e no current flow
 * Use a high impedance transducing element like a MOSFET or OpAmp to measure the electric field generated
 
-```{figure} ..\Images\L4\circuitrequirements.png
+```{figure} ../Images/L4/circuitrequirements.png
 :label: circuitreq
 :alt: Circuit Requirements 
 :align: center
@@ -654,7 +654,7 @@ We can use a transistor **ITSELF** as an ion-sensitive electrode. This is called
 
 **The ISFET is a MOSFET transistor whereby the gate becomes your ion-selective electrode**
 
-```{figure} ..\Images\L4\ISFET.png
+```{figure} ../Images/L4/ISFET.png
 :label: ISFETdiagram
 :alt: ISFET Diagram 
 :align: center
@@ -666,7 +666,7 @@ We can use a transistor **ITSELF** as an ion-sensitive electrode. This is called
 
 We can also put **ionophores** on the surface to make it sensitive to different ions. When we do this, they are called CHEMFETs.
 
-```{figure} ..\Images\L4\ionophores.png
+```{figure} ../Images/L4/ionophores.png
 :label: chemfet
 :alt: chemfet table 
 :align: center
@@ -678,7 +678,7 @@ Challenges include, chemical sensitivity, sensor drift and failure and temperatu
 
 The **sensing mechanism** of the sensing membrane works as follows: some bio-chemical processes occur, which we can model as 2 capacitors in series. They produce a big amount of charge in the solution which gets reflected on the surface and causes the change in potential.
 
-```{figure} ..\Images\L4\sensingmechanism.png
+```{figure} ../Images/L4/sensingmechanism.png
 :label: sensemech
 :alt: Sensing Mechanism 
 :align: center
@@ -686,7 +686,7 @@ The **sensing mechanism** of the sensing membrane works as follows: some bio-che
 
 We can treat this whole process as a transistor, with the following macro-model:
 
-```{figure} ..\Images\L4\transistormacromodel.png
+```{figure} ../Images/L4/transistormacromodel.png
 :label: tranmm
 :alt: Transistor Macro Model 
 :align: center
@@ -698,7 +698,7 @@ We can treat this whole process as a transistor, with the following macro-model:
 
 Here's what an ID VGS sweep looks like for different pHs:
 
-```{figure} ..\Images\L4\idvgssweep.png
+```{figure} ../Images/L4/idvgssweep.png
 :label: idvgs
 :alt: ID VGS Sweep for Different PH 
 :align: center
@@ -715,7 +715,7 @@ Therefore if you want to keep track of what the pH is, you either need to establ
 
 We use the following circuit, this is called the **Constant Charge Method (CCM)**, it is a **Opamp based** method:
 
-```{figure} ..\Images\L4\ISFETreadout.png
+```{figure} ../Images/L4/ISFETreadout.png
 :label: isfetreado
 :alt: ISFET Readout Circuit 
 :align: center
@@ -727,7 +727,7 @@ We use the following circuit, this is called the **Constant Charge Method (CCM)*
 
 We also have a **Bridge based** method (referring to the wheatstone bridge resistor circuit):
 
-```{figure} ..\Images\L4\bridgebasedreadout.png
+```{figure} ../Images/L4/bridgebasedreadout.png
 :label: bbreadout
 :alt: ISFET Bridge Based Readout Circuit 
 :align: center
@@ -735,7 +735,7 @@ We also have a **Bridge based** method (referring to the wheatstone bridge resis
 
 And we also have an **Instrumentation based** method, looking back to last week's instrumentation amplifier:
 
-```{figure} ..\Images\L4\instrumentationbasedreadout.png
+```{figure} ../Images/L4/instrumentationbasedreadout.png
 :label: instrumentreadout
 :alt: ISFET Instrumentation Based Readout Circuit 
 :align: center
@@ -782,7 +782,7 @@ Where:
 * $k$ is the measured conductivity, 
 * $c$ is the electrolyte concentration
 
-```{figure} ..\Images\L4\molarconductivity.png
+```{figure} ../Images/L4/molarconductivity.png
 :label: molarcond
 :alt: molar conductivity 
 :align: center
@@ -793,14 +793,14 @@ How do we measure this resistance?
 
 We use the wheatstone bridge circuit. We measure the voltage difference between the circuit bridge, this will give you an indiction of the solution conduction.
 
-```{figure} ..\Images\L4\wheatstonebridge1.png
+```{figure} ../Images/L4/wheatstonebridge1.png
 :label: wheatsb1
 :alt: Wheatstone Bridge 1 
 :align: center
 ```
 Below is a commonly used circuit, it's a balanced configuration whereby if you measure $V_G$, provided the resistor values $R_1$, $R_2$ and $R_3$ are fixed it gives you an indication as to what $R_x$ is.
 
-```{figure} ..\Images\L4\wheatstonebridge2.png
+```{figure} ../Images/L4/wheatstonebridge2.png
 :label: wheatsb2
 :alt: Wheatstone Bridge 2
 :align: center
@@ -809,7 +809,7 @@ And how can we implement this?
 
 We use a bog standard instrumentation amplifier, an LPF and then into a ADC.
 
-```{figure} ..\Images\L4\wheatstonebridge3.png
+```{figure} ../Images/L4/wheatstonebridge3.png
 :label: wheatsb3
 :alt: Wheatstone Bridge 3
 :align: center
