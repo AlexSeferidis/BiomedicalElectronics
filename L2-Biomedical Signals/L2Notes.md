@@ -85,7 +85,7 @@ Each phospholipid has a **polar (hydrophillic) head** that includes the phosphat
 
 ```
 
-```{figure} ..\Images\L2\cellstruc.png
+```{figure} ../Images/L2/cellstruc.png
 :label: cellmem
 :alt: Cell and Cell Membrane Diagram
 :align: center
@@ -109,7 +109,7 @@ The polar heads and nonpolar tails create a dual nature or amphipathic property,
 
 Ion channels are proteins embedded in the cell membrane that create pathways for specific ions, such as sodium, potassium, calcium and chlorine to move in and out of cells.
 
-```{figure} ..\Images\L2\nak.png
+```{figure} ../Images/L2/nak.png
 :label: ionchannel
 :alt: PotassiumSodiumIonChannels
 :align: center
@@ -145,7 +145,7 @@ The opening and closing of these channels are tightly regulated, which in turn c
 
 What forces things to move?
 
-```{figure} ..\Images\L2\transportproc.png
+```{figure} ../Images/L2/transportproc.png
 :label: trans
 :alt: Transport Processes
 :align: center
@@ -181,7 +181,7 @@ Let's discuss how what we've now learnt relates to how the cells in our brain co
 
 A diagram of a neuron can be seen [here](#neuron)
 
-```{figure} ..\Images\L2\neurondiagram.png
+```{figure} ../Images/L2/neurondiagram.png
 :label: neuron
 :alt: Diagram of a Neuron
 :align: center
@@ -201,7 +201,7 @@ Let's focus on the most important parts:
 
 In order to explain how neural signalling works we will look at a **very important** [graph](#action). This describes the **action potential** of a neuron, which is an electric signal that travels along the axon of a neuron.
 
-```{figure} ..\Images\L2\actionpoten.png
+```{figure} ../Images/L2/actionpoten.png
 :label: action
 :alt: Action Potential Graph
 :align: center
@@ -233,7 +233,7 @@ In order to explain how neural signalling works we will look at a **very importa
     * The potassium channels do not close immediately after reaching the resting potential, as a result the membrane potential often becomes more negative than the resting potential
     * And after it returns to the resting membrane potential
 
-```{figure} ..\Images\L2\synapse.png
+```{figure} ../Images/L2/synapse.png
 :label: syn
 :alt: synapse
 :align: center
@@ -249,7 +249,7 @@ In order to explain how neural signalling works we will look at a **very importa
 
 Zooming out now we can see how this kind of behavior can impact our whole body and system.
 
-```{figure} ..\Images\L2\nervous.png
+```{figure} ../Images/L2/nervous.png
 :label: ner
 :alt: Nervous system
 :align: center
@@ -274,7 +274,7 @@ We can see how these signals can range:
 | EEG    | 0.001-0.01     | 0.5-40         |
 | ECG    | 1-5            | 0.05-100       |
 
-```{figure} ..\Images\L2\ranges.png
+```{figure} ../Images/L2/ranges.png
 :label: rng
 :alt: Ranges of different Biopotentials
 :align: center
