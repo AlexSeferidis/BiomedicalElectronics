@@ -19,7 +19,7 @@ It actually consists of several layers of neurons, the light goes through these 
 
 **Basically, through the retina an optical signal is turned into an electric signal**
 
-```{figure} ..\Images\L11\retina.png
+```{figure} ../Images/L11/retina.png
 :label: retina
 :alt: retina
 :align: center
@@ -37,7 +37,7 @@ This electrical signal travels up the optical nerve to the visual cortex in the 
 
 [As you can see](#visualdisorder) there are many things that can go wrong with this visual system
 
-```{figure} ..\Images\L11\visualdisorder.png
+```{figure} ../Images/L11/visualdisorder.png
 :label: visualdisorder
 :alt: visualdisorder
 :align: center
@@ -63,7 +63,7 @@ Degenerately, neurons inside the retina can start to die, causing blindness. It'
 
 Retinal prosthesis generally has 2 parts, one inside the body and another outside.
 
-```{figure} ..\Images\L11\retinalprost.png
+```{figure} ../Images/L11/retinalprost.png
 :label: retinalprost
 :alt: retinalprost
 :align: center
@@ -96,7 +96,7 @@ There are typically 3 positions for ES of the retina for retinal prosthesis
 3. **Supra Choroidal**
 
 
-```{figure} ..\Images\L11\ESpositions.png
+```{figure} ../Images/L11/ESpositions.png
 :label: ESpositions
 :alt: ESpositions
 :align: center
@@ -106,7 +106,7 @@ There are typically 3 positions for ES of the retina for retinal prosthesis
 
 Some time ago [this](#epiret1) was the only retinal prosthesis on the market.
 
-```{figure} ..\Images\L11\epiret1.png
+```{figure} ../Images/L11/epiret1.png
 :label: epiret1
 :alt: epiret1
 :align: center
@@ -120,7 +120,7 @@ The architecture works as follows:
 * SoC - some processing electronics alongside some receiving coils to pick up the incoming signal
 * Stimulator - to deliver processed signal to NS
 
-```{figure} ..\Images\L11\epiret2.png
+```{figure} ../Images/L11/epiret2.png
 :label: epiret2
 :alt: epiret2
 :align: center
@@ -140,7 +140,7 @@ Microelectronics will perform several functions in a retinal prosthesis, includi
 
 So [here](#epiret3) is the architecture of the 256 channel epiretinal prosthesis.
 
-```{figure} ..\Images\L11\epiret3.png
+```{figure} ../Images/L11/epiret3.png
 :label: epiret3
 :alt: epiret3
 :align: center
@@ -168,7 +168,7 @@ The stimulation is similar to what we've seen before. Recall the following requi
 * **Effective** - Strong enough stimulation to achieve the stimulation threshold for targeted cells
 * **Safe** - Not too strong to avoid tissue damage
 
-```{figure} ..\Images\L11\epiret4.png
+```{figure} ../Images/L11/epiret4.png
 :label: epiret4
 :alt: epiret4
 :align: center
@@ -179,7 +179,7 @@ Empirically it has been shown that anodic first is more effective than cathodic 
 
 It's important to remember (particularly for exams) that we typically have arrays of electrodes, not just one. We have a question of how to stimulate these electrodes. This is where we introduce **electrode scanning patterns** . Here are [some typical scanning patterns](#epiret5).
 
-```{figure} ..\Images\L11\epiret5.png
+```{figure} ../Images/L11/epiret5.png
 :label: epiret5
 :alt: epiret5
 :align: center
@@ -191,7 +191,7 @@ So what is actually seen by a patient using retinal prosthesis? It's something c
 
 **Phosphenes** - Images of light or colour that you can usually see while your eye is closed, or when you rub them.
 
-```{figure} ..\Images\L11\epiret6.png
+```{figure} ../Images/L11/epiret6.png
 :label: epiret6
 :alt: epiret6
 :align: center
@@ -209,7 +209,7 @@ There were 3 types of visual activity used to test the performance of the device
     * [See that](#epiret7) the accuracy was much higher with it on than off 
 2. **Direction of Motion** - Here they were presented with a white bar on screen going from left to right and they were asked to say which direction it was going
 
-```{figure} ..\Images\L11\epiret7.png
+```{figure} ../Images/L11/epiret7.png
 :label: epiret7
 :alt: epiret7
 :align: center
@@ -218,7 +218,7 @@ There were 3 types of visual activity used to test the performance of the device
 
 4. **Find-the-Door Task** - Find the door on a white background
 
-```{figure} ..\Images\L11\epiret8.png
+```{figure} ../Images/L11/epiret8.png
 :label: epiret8
 :alt: epiret8
 :align: center
@@ -267,7 +267,7 @@ The disadvantage is it is **more invasive**, it's further down the visual pathwa
 
 Recently more investment has been made into subretinal prosthesis.
 
-```{figure} ..\Images\L11\subret1.png
+```{figure} ../Images/L11/subret1.png
 :label: subret1
 :alt: subret1
 :align: center
@@ -275,12 +275,12 @@ Recently more investment has been made into subretinal prosthesis.
 
 An example is the Pixium, however even this one is as of 2024 asking for a buyer:
 
-```{figure} ..\Images\L11\subret2.png
+```{figure} ../Images/L11/subret2.png
 :label: subret2
 :alt: subret2
 :align: center
 ```
-```{figure} ..\Images\L11\subret3.png
+```{figure} ../Images/L11/subret3.png
 :label: subret3
 :alt: subret3
 :align: center
@@ -299,7 +299,7 @@ There are some estimated **resolution requirements** for the Artificial Retina. 
 
 **Power consumption** is also an important consideration, we need to consider different electrode sizes for different applications and resources:
 
-```{figure} ..\Images\L11\stimulusthreshold.png
+```{figure} ../Images/L11/stimulusthreshold.png
 :label: stimulusthreshold
 :alt: stimulusthreshold
 :align: center

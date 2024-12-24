@@ -17,7 +17,7 @@ Although basically the same...
 
 The idea is that BMI, the machine has become part of the brain and are closely linked. BCI is referring to an external device.
 
-```{figure} ..\Images\L10\exampleuses.png
+```{figure} ../Images/L10/exampleuses.png
 :label: exampleuses
 :alt: exampleuses
 :align: center
@@ -38,7 +38,7 @@ We have this important distinction between wearables and implantables.
 * Signal better in implants as closer to source or target
 * Compliance is another interesting one, it's basically saying whether someone will use it or not
 
-```{figure} ..\Images\L10\wearablevimplantable.png
+```{figure} ../Images/L10/wearablevimplantable.png
 :label: wearablevimplantable
 :alt: wearablevimplantable
 :align: center
@@ -55,7 +55,7 @@ We have this important distinction between wearables and implantables.
     * Brain computer interfaces – eg. Gaming (Emotiv)
     * Merging human/AI
 
-```{figure} ..\Images\L10\BCIBMIapplications.png
+```{figure} ../Images/L10/BCIBMIapplications.png
 :label: BCIBMIapplications
 :alt: BCIBMIapplications
 :align: center
@@ -74,7 +74,7 @@ Emerging technologies include:
 2. **Intravascular** - Idea is that you can have an electrode array that looks a stent, inserted into the train through a blood vessal like and you can detect neural activity from there. This means you can enter from the head and therefore no brain surgery is required.
 3. **Distributed intracortical** - This is an idea of lots of very small devices, drilling holes into the skull and implanting them, so you're not opening up the skull as such. The skull will heal itself over time.
 
-```{figure} ..\Images\L10\implantableBMI.png
+```{figure} ../Images/L10/implantableBMI.png
 :label: implantableBMI
 :alt: implantableBMI
 :align: center
@@ -97,7 +97,7 @@ Emerging technologies include:
     * If we want low noise, we have to consume power
     * If we want high bandwidth we have to consume power
 
-```{figure} ..\Images\L10\technicalchallengesBMI.png
+```{figure} ../Images/L10/technicalchallengesBMI.png
 :label: technicalchallengesBMI
 :alt: technicalchallengesBMI
 :align: center
@@ -113,7 +113,7 @@ So let's look at resolution vs invasiveness, and specifically in the context of 
 
 So the further you get from the cells, the bigger the electrode gets. Typically we get 2 types of signals (see [topright](#resvsinv)) LFPs and spikes. Smaller electrodes can observe **individual spikes** whereas further away you're measuring hundreds of thousands or even millions of neurones, this is called an LFP (a superposition of all the spikes). We can decode from spikes directly or from LFPs.
 
-```{figure} ..\Images\L10\resvsinv.png
+```{figure} ../Images/L10/resvsinv.png
 :label: resvsinv
 :alt: resvsinv
 :align: center
@@ -129,7 +129,7 @@ We also have a question about where we are putting the electrodes:
 * **Low density probes** - wider region
 
 
-```{figure} ..\Images\L10\scalabilitygraph.png
+```{figure} ../Images/L10/scalabilitygraph.png
 :label: scalabilitygraph
 :alt: scalabilitygraph
 :align: center
@@ -146,7 +146,7 @@ When we insert and electrode into tissue a lot of things can happen:
 
 We need to account for the fact that the body will attempt to destroy any foreign object which enters it, therefore we need to use materials that are stable, but also biocompatible so the body doesn't reject it.
 
-```{figure} ..\Images\L10\signalinteg.png
+```{figure} ../Images/L10/signalinteg.png
 :label: signalinteg
 :alt: signalinteg
 :align: center
@@ -180,7 +180,7 @@ So our constraints are:
     * Generally stay below $10mW/cm^2$
     * keep any temp increase below 1 degree celcius
 
-```{figure} ..\Images\L10\lossestochip.png
+```{figure} ../Images/L10/lossestochip.png
 :label: lossestochip
 :alt: lossestochip
 :align: center
@@ -197,7 +197,7 @@ This poses big challenges for using traditional ML/DL methods on the brain as th
 **So how do we generalise?**
 
 
-```{figure} ..\Images\L10\neuronuncertainty.png
+```{figure} ../Images/L10/neuronuncertainty.png
 :label: neuronuncertainty
 :alt: neuronuncertainty
 :align: center
@@ -214,7 +214,7 @@ Obviously consumer electronics are trying to make headsets more confortable, so 
 There are also efforts in the implantable space to go beyond medical - the challenge being it's not ethical or legal to do anything implantable to an individual without a massive benefit
 
 
-```{figure} ..\Images\L10\consumerelectronic.png
+```{figure} ../Images/L10/consumerelectronic.png
 :label: consumerelectronic
 :alt: consumerelectronic
 :align: center
@@ -224,7 +224,7 @@ There are also efforts in the implantable space to go beyond medical - the chall
 
 We can try to explore different geometries, different ideas for electrodes, such as the aforementioned intra-vascular implementation that got inside the blood vessels
 
-```{figure} ..\Images\L10\newforms.png
+```{figure} ../Images/L10/newforms.png
 :label: newforms
 :alt: newforms
 :align: center
@@ -236,7 +236,7 @@ BCIs communicate by the patient thinking they want to move their arm (for exampl
 
 Thinking about the information transfer rate of how many bits of information you're able to transfer via speech vs movement of the hand, maybe we can therefore go to the speech cortex rather than the motor cortex. So we think about using different parts of the brain to do different things. 
 
-```{figure} ..\Images\L10\bigidea.png
+```{figure} ../Images/L10/bigidea.png
 :label: bigidea
 :alt: bigidea
 :align: center
@@ -246,7 +246,7 @@ Thinking about the information transfer rate of how many bits of information you
 
 fMRI scans can extract and help teach models how people are thinking when prompted by given data, images, videos, etc. fMRI basically works by quantifying the amounts of oxygen in different parts of your brain, signalling activity.
 
-```{figure} ..\Images\L10\AIop.png
+```{figure} ../Images/L10/AIop.png
 :label: AIop
 :alt: AIop
 :align: center
@@ -262,7 +262,7 @@ Another model is that of Uber or eBay or the App Store, i.e using a common hardw
 
 The principal being that if you had some common hardware and were only playing with software it would be easier.
 
-```{figure} ..\Images\L10\ecosystem.png
+```{figure} ../Images/L10/ecosystem.png
 :label: ecosystem
 :alt: ecosystem
 :align: center
@@ -294,7 +294,7 @@ What do we need to record brain activity (I.e. biopotential signals – either a
 
 The front-end is typically analogue (amplification + conditioning) and the back-end is typically digital (communication + signal processing)
 
-```{figure} ..\Images\L10\BMIarch.png
+```{figure} ../Images/L10/BMIarch.png
 :label: BMIarch
 :alt: BMIarch
 :align: center
@@ -303,7 +303,7 @@ The front-end is typically analogue (amplification + conditioning) and the back-
 
 Our signals of interest are EAPs, LFPs, ECoG or EEG
 
-```{figure} ..\Images\L10\BMIpotent.png
+```{figure} ../Images/L10/BMIpotent.png
 :label: BMIpotent
 :alt: BMIpotent
 :align: center
@@ -319,7 +319,7 @@ The front-end requirements are as follows:
 * Constant gain across signal bandwidth
 * DC/offset rejection - due to electrode/eletrolyte/tissue interface
 
-```{figure} ..\Images\L10\frontend1.png
+```{figure} ../Images/L10/frontend1.png
 :label: frontend1
 :alt: frontend1
 :align: center
@@ -333,7 +333,7 @@ And we design our ADC based on the [signal dynamics](#BMIpotent), so highest pot
 
 **Number of bits is usually 6-8 bits but can calculate using noise performance of the amplifier**
 
-```{figure} ..\Images\L10\frontend2.png
+```{figure} ../Images/L10/frontend2.png
 :label: frontend2
 :alt: frontend2
 :align: center
@@ -341,7 +341,7 @@ And we design our ADC based on the [signal dynamics](#BMIpotent), so highest pot
 
 Below is a typical front-end signal, we can see both the LFPs and the spikes.
 
-```{figure} ..\Images\L10\frontend3.png
+```{figure} ../Images/L10/frontend3.png
 :label: frontend3
 :alt: frontend3
 :align: center
@@ -356,7 +356,7 @@ There's another layer of complexity. [See this neurone in grey in the background
     * **Spike shape** changes with electrode position and orientation
     * **Spike amplitude** changes with electrode/cell proximity
 
-```{figure} ..\Images\L10\EAPs.png
+```{figure} ../Images/L10/EAPs.png
 :label: EAPs
 :alt: EAPs
 :align: center
@@ -379,7 +379,7 @@ So we can't really differentiate them and they're all adding up
 
 ```
 
-```{figure} ..\Images\L10\observedEAP.png
+```{figure} ../Images/L10/observedEAP.png
 :label: observedEAP
 :alt: observedEAP
 :align: center
@@ -399,7 +399,7 @@ Our solution is **spike sorting**...
 6. Then we take our feature space representation (assuming it's a good representation) and start thinking about clustering
 7. These clusters classify our different spikes
 
-```{figure} ..\Images\L10\spikesort.png
+```{figure} ../Images/L10/spikesort.png
 :label: spikesort
 :alt: spikesort
 :align: center
@@ -410,7 +410,7 @@ So the purpose of this **spike sorting** is data reduction/compression without c
 * O/P is typically individual events (i.e. each neurons spike events)
 * Spike sorting is typically computationally-intensive (i.e. an offline method)
 
-```{figure} ..\Images\L10\spikearch.png
+```{figure} ../Images/L10/spikearch.png
 :label: spikearch
 :alt: spikearch
 :align: center

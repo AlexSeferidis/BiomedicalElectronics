@@ -32,7 +32,7 @@ Diabetes is huge, it roughly effects 3% of the world's population, and is estima
 
 [Here](#metabolic) is a diagram of the human metabolic system.
 
-```{figure} ..\Images\L8\metabolic.png
+```{figure} ../Images/L8/metabolic.png
 :label: metabolic
 :alt: Human Metabolic System Diagram
 :align: center
@@ -54,7 +54,7 @@ So the pancreas is responsible for releasing this hormone called insulin. It con
 
 * **Alpha Cells** - We also have alpha cells, they are responsible for the secretion of glucagon, which looks to increase blood glucose levels.
 
-```{figure} ..\Images\L8\pancreas.png
+```{figure} ../Images/L8/pancreas.png
 :label: pancreas
 :alt: Pancreas Diagram
 :align: center
@@ -68,7 +68,7 @@ Blood glucose should be kept between **4-8mM (milli molars)** in a healthy indiv
 * Your body secretes insulin and it brings it back down
 * Through all that time, you need to stay in this range
 
-```{figure} ..\Images\L8\glucoseprofile.png
+```{figure} ../Images/L8/glucoseprofile.png
 :label: glucoseprof
 :alt: Glucose Profile Graph
 :align: center
@@ -87,7 +87,7 @@ The current treatment is as follows:
 * We now have insulin which we can store at room temperature
 * If the person sees the blood glucose and performs mental arithmetic to determine whether they need an injection of insulin
 
-```{figure} ..\Images\L8\currentdiabetes.png
+```{figure} ../Images/L8/currentdiabetes.png
 :label: currdiabetes
 :alt: Current Diabetes
 :align: center
@@ -102,7 +102,7 @@ It should be clear that this is **sub-optimal**, it requires a lot of guesswork 
 * Through over dosing of insulin, diabetics increase incidence of **hypo-glyceamia**
     * Results in low-glucose to the brain resulting in **coma** and in sever cases death
 
-```{figure} ..\Images\L8\glucoselevels.png
+```{figure} ../Images/L8/glucoselevels.png
 :label: glucoselevels
 :alt: Glucose Levels Graph
 :align: center
@@ -132,7 +132,7 @@ So for this to work we use amperometry with a 3 cell (WE, RE, CE) electrochemica
 * $H_2 O_2$ is oxidised at $0.7V$
 * Therefore the cell potential is given by $V_{WE}-V_{RE} = 0.7$
 
-```{figure} ..\Images\L8\CGMS.png
+```{figure} ../Images/L8/CGMS.png
 :label: CGMS
 :alt: CGMS
 :align: center
@@ -148,7 +148,7 @@ We also have insulin pumps, which hold a reservoir of insulin.
 * And you can program what's called the **'basel rate** of insulin (U/hr) to give you drip units per hour
 * You can also press a button to give sudden boluses of insulin, similar to the pen, which you would do before you eat a meal.
 
-```{figure} ..\Images\L8\insulinpump.png
+```{figure} ../Images/L8/insulinpump.png
 :label: insulinpump
 :alt: insulin pump
 :align: center
@@ -164,7 +164,7 @@ So with all these technologies we can start to think about a closed loop system.
 * should minimise hyper and hypoglycemia
 * Keeps blood glucose in target range **4-8mM**
 
-```{figure} ..\Images\L8\artificialpancreas.png
+```{figure} ../Images/L8/artificialpancreas.png
 :label: artificialpancreas
 :alt: Artificial Pancreas 
 :align: center
@@ -183,7 +183,7 @@ We have a number of different control schemes which have been used for automatic
 * Adaptive control (Takahashi 2008)
 * Bio-inspired control (Georgiou 2008)
 
-```{figure} ..\Images\L8\control.png
+```{figure} ../Images/L8/control.png
 :label: control
 :alt: Control System 
 :align: center
@@ -191,21 +191,21 @@ We have a number of different control schemes which have been used for automatic
 
 So the bio-inspired artificial pancreas, trained on human computational models called Silico subjects was able to account for the many challenges faced in creating an artificial pancreas.
 
-```{figure} ..\Images\L8\artpanctrail.png
+```{figure} ../Images/L8/artpanctrail.png
 :label: artpanctrail
 :alt: art panc trail 
 :align: center
 ```
 Not only that but it also was able to supply glucagon as well, which was tested in an exercise trial.
 
-```{figure} ..\Images\L8\exercisetrial.png
+```{figure} ../Images/L8/exercisetrial.png
 :label: exercisetrial
 :alt: exercise trial
 :align: center
 ```
 the latest iteration is a handheld controller system that can be connected to an apple watch.
 
-```{figure} ..\Images\L8\latestpanc.png
+```{figure} ../Images/L8/latestpanc.png
 :label: latestpanc
 :alt: Latest Artificial Pancreas
 :align: center

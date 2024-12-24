@@ -26,7 +26,7 @@ A **Genome** is the entirety of all genes of an organism.
 
 DNA is stored in the **nucleus** of the cell, apart from in some cases the mitochondria (mtDNA)
 
-```{figure} ..\Images\L7\DNA.png
+```{figure} ../Images/L7/DNA.png
 :label: DNAdiagram
 :alt: DNA Diagram
 :align: center
@@ -115,7 +115,7 @@ DNA physical properties:
 * Lengths (in humans) of $\approx 3.2  \text{ x } 10^{9} \text{ base pairs}$ 
 
 
-```{figure} ..\Images\L7\DNAstruc.png
+```{figure} ../Images/L7/DNAstruc.png
 :label: DNAstrucdiagram
 :alt: DNA Structure Diagram
 :align: center
@@ -174,7 +174,7 @@ Let's break down the procedure in [this figure](#SNPdet):
     * these probes bind to specified sequences by setting the bases, so it will bind when the complimentary pairs are found in the sequence
 
 
-```{figure} ..\Images\L7\SNPdetect.png
+```{figure} ../Images/L7/SNPdetect.png
 :label: SNPdet
 :alt: SNP Detection Diagram
 :align: center
@@ -192,7 +192,7 @@ They are chips of the order $\text{mm}^2 - \text{cm}^2$ mad eof glass/polymer ma
 
 If at each of these sites, the target sequence is immobilised, the sample is flood over and if there's a match binding occurs. Measuring when this binding occurs is traditionally done using optics, we will do it with pH and charge in CMOS. 
 
-```{figure} ..\Images\L7\DNAmicroarray.png
+```{figure} ../Images/L7/DNAmicroarray.png
 :label: DNAMA
 :alt: DNAMA Diagram
 :align: center
@@ -207,7 +207,7 @@ To make a microarray you need:
 
 [Here's](#DNAMAAPP) the application chain for DNA microarrays
 
-```{figure} ..\Images\L7\DNAMAAPP.png
+```{figure} ../Images/L7/DNAMAAPP.png
 :label: DNAMAAPP
 :alt: DNAMAAPP Diagram
 :align: center
@@ -222,7 +222,7 @@ Here are a couple of DNA detection methods:
     * Light signifies the presence of the target
     * Colour or intensity signifies quantity
 
- ```{figure} ..\Images\L7\OpticalDNAMA.png
+ ```{figure} ../Images/L7/OpticalDNAMA.png
 :label: OptDNAMA
 :alt: Optical DNAMA Diagram
 :align: center
@@ -270,7 +270,7 @@ We have 3 techniques, which we have seen before:
 
 To detect in CMOS we use a silicon chip, but we need to put sensors on there to immobilise the DNA. The best sensor for electrochemical detection is an inert noble metal. We use this for electrochemical and impedance based methods, as they need formation of electrodes on the CMOS surface.
 
- ```{figure} ..\Images\L7\CMOSintegration.png
+ ```{figure} ../Images/L7/CMOSintegration.png
 :label: CMOSint
 :alt: CMOS Integration
 :align: center
@@ -280,13 +280,13 @@ We usually use the gold or platinum, and to put it down on the chip we use what'
 
 [Here's an example](#lithography1) of this process of Au'on'Standard'0.5μm,'6“'CMOS'Process'using' standard'lithography'.
 
-```{figure} ..\Images\L7\lithography1.png
+```{figure} ../Images/L7/lithography1.png
 :label: lithography1
 :alt: Lithography 1
 :align: center
 ```
 
-```{figure} ..\Images\L7\lithography2.png
+```{figure} ../Images/L7/lithography2.png
 :label: lithography2
 :alt: Lithography 2
 :align: center
@@ -304,7 +304,7 @@ As previously discussed we can get a redox potential and current flow. So in thi
 
 * Also because we only want to determine if it's there, not quantify how much it is, so we can just use a step increase in the potential
 
-```{figure} ..\Images\L7\Electrochem.png
+```{figure} ../Images/L7/Electrochem.png
 :label: electrochem
 :alt: Electrochemical Detection
 :align: center
@@ -314,7 +314,7 @@ As previously discussed we can get a redox potential and current flow. So in thi
 
 We can also do CV, as discussed in the past. We do a voltage sweep up and down and at the redox potential we get a peak current, which signifies the presence of the binding.
 
-```{figure} ..\Images\L7\CV.png
+```{figure} ../Images/L7/CV.png
 :label: CVDNAMA
 :alt: CV
 :align: center
@@ -328,7 +328,7 @@ We can also do some more inventive stuff. [Here's](#fourelec) an example of that
 * Then we can measure the currents in each
 * Then we can find the difference, this essentially allows us to reduce common mode noise and improve SNR
 
-```{figure} ..\Images\L7\fourelec.png
+```{figure} ../Images/L7/fourelec.png
 :label: fourelec
 :alt: Four Electrode System
 :align: center
@@ -341,7 +341,7 @@ Here:
 
 And [here](#fourelecop) you can see the output. We can see that the slope in the derivative ($\frac{\delta \text{current}}{\delta \text{time}}$) signifies the presence of the target DNA. We also can see the **elimination of electrochemical crosstalk**.  
 
-```{figure} ..\Images\L7\fourelecop.png
+```{figure} ../Images/L7/fourelecop.png
 :label: fourelecop
 :alt: Four Electrode System Output
 :align: center
@@ -353,7 +353,7 @@ And [here](#fourelecop) you can see the output. We can see that the slope in the
 
 Recall that DNA has a negative charge, this means inherently when binding happens you'll have more charge than when binding doesn't happen. This means we can effectively measure that as an RC circuit. 
 
-```{figure} ..\Images\L7\Impedancebased.png
+```{figure} ../Images/L7/Impedancebased.png
 :label: impbased
 :alt: Impdeance Based DNA Detection
 :align: center
@@ -363,7 +363,7 @@ Recall that DNA has a negative charge, this means inherently when binding happen
 
 From this equation we can extract the capacitance, which tells you exactly how much DNA there is. 
 
-```{figure} ..\Images\L7\exampleDNAimp.png
+```{figure} ../Images/L7/exampleDNAimp.png
 :label: exampleDNAimp
 :alt: Example DNA Impedance
 :align: center
@@ -381,7 +381,7 @@ We note the following:
 * This tells us that when DNA binds, it releases a Hydrogen ion (proton) and therefore the pH will decrease
 * Therefore if we have a pH sensor we can detect this process, we can do this with **potentiometric methods - using ISFETs**
 
-```{figure} ..\Images\L7\phBased.png
+```{figure} ../Images/L7/phBased.png
 :label: phBased
 :alt: pH Based DNA Detection
 :align: center
@@ -399,7 +399,7 @@ We want to take the human genome under investigation, this means evaluating 3.2 
 
 * We then have an **assembly algorithm** that puzzles the fragments back together, it also detects overlaps in primer DNA.
 
-```{figure} ..\Images\L7\sequencingassembly.png
+```{figure} ../Images/L7/sequencingassembly.png
 :label: sequencingassembly
 :alt: sequencing assembly algorithm
 :align: center
@@ -407,20 +407,20 @@ We want to take the human genome under investigation, this means evaluating 3.2 
 
 Below we can see the magnetic beads in the well, note that the honeycomb structure is the most compact, allowing us to be most efficient in space.
 
-```{figure} ..\Images\L7\magneticbead.png
+```{figure} ../Images/L7/magneticbead.png
 :label: magneticbead
 :alt: Magnetic Bead
 :align: center
 ```
 Below we can also see the use of **pyrosequencing**. WE have 4 bottles, in each bottle we've got nucleotides A, T, C and G. We sequentially insert the bases one by one, if it binds we get a signal, if not we wash and pump in the next. This means we can determine what nucleotide is in the well. This signal that we observe is generated from our ISFET array, detecting the change in pH.
 
-```{figure} ..\Images\L7\pyrosequence1.png
+```{figure} ../Images/L7/pyrosequence1.png
 :label: pyrosequence1
 :alt: Pyrosequencing 
 :align: center
 ```
 
-```{figure} ..\Images\L7\pyrosequence2.png
+```{figure} ../Images/L7/pyrosequence2.png
 :label: pyrosequence2
 :alt: Pyrosequencing 
 :align: center

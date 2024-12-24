@@ -15,7 +15,7 @@ The relevant regulatory bodies:
 
 Getting approval for a biomedical device is quite a laborious [procedure](#deviceprocedure).
 
-```{figure} ..\Images\L12\deviceprocedure.png
+```{figure} ../Images/L12/deviceprocedure.png
 :label: deviceprocedure
 :alt: deviceprocedure
 :align: center
@@ -57,7 +57,7 @@ The last part is there to differentiate medical devices from drugs
 
 We classify the aforementioned device types in 4 classes.
 
-```{figure} ..\Images\L12\pyramid.png
+```{figure} ../Images/L12/pyramid.png
 :label: pyramid
 :alt: pyramid
 :align: center

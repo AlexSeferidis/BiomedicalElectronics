@@ -23,7 +23,7 @@ We want a power solution which accommodates the functionality for medical needs 
 
 The LVAD is a device which is used to assist an existing heart by pumping some of the blood itself. This is done to take some of the strain away from a damaged or strained heart, it's particularly used when waiting for a heart donor is taking too long.
 
-```{figure} ..\Images\L6\LVAD.png
+```{figure} ../Images/L6/LVAD.png
 :label: LVADdiagram
 :alt: LVAD Diagram
 :align: center
@@ -108,7 +108,7 @@ You have to consider when transmitting that when you decide a method of communic
 
 With that in mind we really want to minimise the power consumption of these devices. A simple concept for a transmitter is as follows, this is called a **Colpitz oscillator transmitter**:
 
-```{figure} ..\Images\L6\simpleTx.png
+```{figure} ../Images/L6/simpleTx.png
 :label: Colpitz
 :alt: Colpitz oscillator transmitter diagram
 :align: center
@@ -164,7 +164,7 @@ There are other ways however, such as:
 
 * **Changing the Geometry of a Variable Capacitor (Electrostatic)** - When we apply too much voltage across a capacitor a force pulls the capacitor together, if instead we pull the plates apart we create a bigger electric field and can generate some energy from that
 
-```{figure} ..\Images\L6\transducermotion.png
+```{figure} ../Images/L6/transducermotion.png
 :label: transducermotion
 :alt: transducermotion diagram
 :align: center
@@ -195,7 +195,7 @@ Take the [electrostatic mechanism](#transducermotion), we cannot physically grab
 
 Outside of the body we can do something like [this](#motiontrans1). This is called a **direct-force driven generator**.
 
-```{figure} ..\Images\L6\motiontrans1.png
+```{figure} ../Images/L6/motiontrans1.png
 :label: motiontrans1
 :alt: motiontrans1 diagram
 :align: center
@@ -207,7 +207,7 @@ Here we anchor both sides to two bits of the body that are going to move away fr
 
 Internally we need a different approach. Instead we use an **inertial generation mechanism**. This is a device that can be completely encapsulated or enclosed and does not need to be anchored to 2 separate places to do work against the transducer.
 
-```{figure} ..\Images\L6\motiontrans2.png
+```{figure} ../Images/L6/motiontrans2.png
 :label: motiontrans2
 :alt: motiontrans2 diagram
 :align: center
@@ -221,7 +221,7 @@ There are 2 examples of direct force driven generators, where we attach both sid
 
 1. An [in shoe harvester](#mtexample1) - this provides around 1W when walking
 
-```{figure} ..\Images\L6\mtexample1.png
+```{figure} ../Images/L6/mtexample1.png
 :label: mtexample1
 :alt: mtexample1 diagram
 :align: center
@@ -229,7 +229,7 @@ There are 2 examples of direct force driven generators, where we attach both sid
 
 2. A [knee brace](#mtexample2) - this provides around 5W while walking and can make walking easier
 
-```{figure} ..\Images\L6\mtexample2.png
+```{figure} ../Images/L6/mtexample2.png
 :label: mtexample2
 :alt: mtexample2 diagram
 :align: center
@@ -237,7 +237,7 @@ There are 2 examples of direct force driven generators, where we attach both sid
 
 We also have an example of an inertial harvester, a backpack where something moves up and down and power is generated. This generates around 7W while the subject walks.
 
-```{figure} ..\Images\L6\mtexample3.png
+```{figure} ../Images/L6/mtexample3.png
 :label: mtexample3
 :alt: mtexample3 diagram
 :align: center
@@ -342,7 +342,7 @@ This can now tell us how much power could be generated from a device of a certai
 
 We have assumed that we have a power extraction mechanism $D$ that can either be piezo, electrostatic or electromagnetic. The energy taken off by the transduction mechanism, as it is proportional to the velocity $\dot z(t)$. As an example, we will show how you get this $D$ from an electromagnetic type of transducer.
 
-```{figure} ..\Images\L6\transEM.png
+```{figure} ../Images/L6/transEM.png
 :label: transEM
 :alt: transEM diagram
 :align: center
@@ -388,7 +388,7 @@ As we know how $D$ relates to damping factor and we know an optimal damping fact
 
 A real system's block diagram would look like so:
 
-```{figure} ..\Images\L6\realsystem.png
+```{figure} ../Images/L6/realsystem.png
 :label: realsystem
 :alt: realsystem diagram
 :align: center
@@ -404,7 +404,7 @@ We can perform **resistance emulation**:
 
 Here is a possible solution by Stark et al from Bristol:
 
-```{figure} ..\Images\L6\boostrectifier.png
+```{figure} ../Images/L6/boostrectifier.png
 :label: boostrectifier
 :alt: boostrectifier diagram
 :align: center
@@ -424,7 +424,7 @@ Now we will look at harvesting energy using thermal gradients. This is specifica
 
 Below is a thermoelectric generator:
 
-```{figure} ..\Images\L6\thermoharvest.png
+```{figure} ../Images/L6/thermoharvest.png
 :label: thermoharvest
 :alt: thermoharvest diagram
 :align: center
@@ -479,7 +479,7 @@ P =
 
 Where $\text{TEG}$ refers to a Thevenin equivalent source ($\Delta T_{\text{TEG}} = T_H - T_C$):
 
-```{figure} ..\Images\L6\teg.png
+```{figure} ../Images/L6/teg.png
 :label: teg
 :alt: teg diagram
 :align: center
@@ -548,7 +548,7 @@ need to impedance match) we can calculate the power output.
 
 We can then compare the power output to the kinetic devices…
 
-```{figure} ..\Images\L6\kvste.png
+```{figure} ../Images/L6/kvste.png
 :label: kvste
 :alt: kvste diagram
 :align: center
@@ -568,7 +568,7 @@ Existing kinetic devices are only about 1% efficient!
 
 The first wireless power system built in Imperial's wireless power lab is shown below. It is essentially a loosely coupled transformer. 
 
-```{figure} ..\Images\L6\firstwireless.png
+```{figure} ../Images/L6/firstwireless.png
 :label: firstwireless
 :alt: firstwireless diagram
 :align: center
@@ -583,7 +583,7 @@ However if you want to charge something truly wirelessly, such that the coils ar
 In a regular transformer, the iron core on which the coils are wound allows
 almost all of the flux generated by current in one coil to flow to the other.
 
-```{figure} ..\Images\L6\regtrans.png
+```{figure} ../Images/L6/regtrans.png
 :label: regtrans
 :alt: regtrans diagram
 :align: center
@@ -609,7 +609,7 @@ The **coupling factor** is the fraction of flux produced by coil 1 that links fr
 
 We have the following equivalent circuit for a transformer that takes into account magnetising inductance, winding losses and magnetisation losses:
 
-```{figure} ..\Images\L6\transformermodel.png
+```{figure} ../Images/L6/transformermodel.png
 :label: transformermodel
 :alt: transformermodel diagram
 :align: center
@@ -634,7 +634,7 @@ Therefore it doesn't matter that only a small fraction of it links to the load p
 
 Let's take a look at what this could look like:
 
-```{figure} ..\Images\L6\nocore1.png
+```{figure} ../Images/L6/nocore1.png
 :label: nocore1
 :alt: nocore1 diagram
 :align: center
@@ -649,7 +649,7 @@ Let's take a look at what this could look like:
 
 The real implementation is a little more like this:
 
-```{figure} ..\Images\L6\realwirelesscharging.png
+```{figure} ../Images/L6/realwirelesscharging.png
 :label: realwirelesscharging
 :alt: realwirelesscharging diagram
 :align: center
@@ -673,7 +673,7 @@ We note that the link efficiency depends on the quality factors of the Tx and Rx
 
 So we can have a low coupling factor as long as the quality factors are high enough. The higher we can make the quality factors, the lower values of coupling factor we can tolerate.
 
-```{figure} ..\Images\L6\qkefficieny.png
+```{figure} ../Images/L6/qkefficieny.png
 :label: qkefficieny
 :alt: qkefficieny diagram
 :align: center
@@ -696,7 +696,7 @@ We can briefly look at the **rectifier topology**, a standard half or full bridg
 
 Our solution is a **resonant rectifier**:
 
-```{figure} ..\Images\L6\resonantrectifier.png
+```{figure} ../Images/L6/resonantrectifier.png
 :label: resonantrectifier
 :alt: resonantrectifier diagram
 :align: center

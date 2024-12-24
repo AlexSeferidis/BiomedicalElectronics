@@ -16,7 +16,7 @@ These come in the form of 3 case studies:
 
 In Europe it was found that around 1 in 4 people either had a neurological condition or a mental health condition.
 
-```{figure} ..\Images\L9\stats.png
+```{figure} ../Images/L9/stats.png
 :label: statgraph
 :alt: Graph of Number of People Suffering from Neurological Disease
 :align: center
@@ -30,7 +30,7 @@ Basically at the moment we have a lot of things such as dementia, epilepsy and P
 
 That bring us to **"erooM's Law"**, the opposite of Moore's law. Basically what we are seeing is that in contrast to Moore's law, where everything is getting exponentially cheaper, developing new drugs for neurological conditions today costs more than 10 billion dollars.
 
-```{figure} ..\Images\L9\erooM.png
+```{figure} ../Images/L9/erooM.png
 :label: erooMgraph
 :alt: Graph of erooM's Law
 :align: center
@@ -53,7 +53,7 @@ This isn't because it costs more to develop a drugs than before, it's simply tha
 * They can restore our typical functioning or even enhance, we generally use these to treat **neurological conditions**
 * They could transform medicine and change how we interact with technology and each other
 
-```{figure} ..\Images\L9\neuralinterfaces.png
+```{figure} ../Images/L9/neuralinterfaces.png
 :label: neuralinterfaces
 :alt: Plot of different Neural Interfaces
 :align: center
@@ -79,7 +79,7 @@ We have 3 kind of classes:
     * Opposite of sensory, it gets signals FROM the brain
     * Used if you have some kind of spinal cord injury, if you're an amputee or have some kind of paralysis
 
-```{figure} ..\Images\L9\neuralprosthetics.png
+```{figure} ../Images/L9/neuralprosthetics.png
 :label: neuralprosthetics
 :alt: Images of different Neural Prosthetics
 :align: center
@@ -114,7 +114,7 @@ The ear basically has 3 portions:
 it's basically a mechanical impedance matching system, where a sound pressure wave turns into a vibration that propagates through the cochlea.
 
 
-```{figure} ..\Images\L9\innerear.png
+```{figure} ../Images/L9/innerear.png
 :label: innerear
 :alt: Diagram of Inner Ear Anatomy
 :align: center
@@ -126,7 +126,7 @@ The most common causes for deafness is the hair cells in the cochlea are damaged
 
 ### Typical Cochlear Implant
 
-```{figure} ..\Images\L9\cochlearimp.png
+```{figure} ../Images/L9/cochlearimp.png
 :label: cochlearimp
 :alt: Diagram of Cochlear Implant
 :align: center
@@ -144,7 +144,7 @@ Here's the general procedure and a timeline:
 * Implant is left to stabilise for about a month, then an audiologist will turn it on and calibrate for the first time
 
 
-```{figure} ..\Images\L9\electrodearray.png
+```{figure} ../Images/L9/electrodearray.png
 :label: electrodearray
 :alt: Diagram of Cochlear Implant and Electrode Array
 :align: center
@@ -160,7 +160,7 @@ Here's the general procedure and a timeline:
 3. Finally you have the electrode array which is responsible for delivering the processed stimuli
 
 
-```{figure} ..\Images\L9\blockdiagramcoch.png
+```{figure} ../Images/L9/blockdiagramcoch.png
 :label: blockdiagramcoch
 :alt: Block Diagram of Cochlear Implant
 :align: center
@@ -187,7 +187,7 @@ We know that as the number of channels (mimicking hair cells) increase, the bett
 
 **This wasn't very effective** - This is because stimulating multiple electrodes at the same time doesn't work well, current goes everywhere and you get lots of destructive interference.
 
-```{figure} ..\Images\L9\ca.png
+```{figure} ../Images/L9/ca.png
 :label: ca
 :alt: Compressed Analogue Cochlear Implant
 :align: center
@@ -211,7 +211,7 @@ We know that as the number of channels (mimicking hair cells) increase, the bett
 
 Below is an example of a MPeak system.
 
-```{figure} ..\Images\L9\Mpeak.png
+```{figure} ../Images/L9/Mpeak.png
 :label: Mpeak
 :alt: Mpeak Cochlear Implant
 :align: center
@@ -224,7 +224,7 @@ Below is an example of a MPeak system.
 * You cycle through channels, giving a stimulus pulse maybe every millisecond and you're stimulating all the frequencies
 * So the frequencies are skewed in time - this makes sense because the way the sound wave travels through the cochlea, not all frequencies are stimulated at the same time
 
-```{figure} ..\Images\L9\CIS.png
+```{figure} ../Images/L9/CIS.png
 :label: CIS
 :alt: CIS Cochlear Implant
 :align: center
@@ -246,7 +246,7 @@ Both have been used and there are advantages both ways.
     * Only one electrode per site
     * However other electrode is far away - so more current going between return electrode and active electrode so you're getting much more efficient activation of tissue
 
-```{figure} ..\Images\L9\monovsbi.png
+```{figure} ../Images/L9/monovsbi.png
 :label: monovsbi
 :alt: monovsbi Cochlear Implant
 :align: center
@@ -271,7 +271,7 @@ It contained the following:
     * System settings
 
 
-```{figure} ..\Images\L9\cimplantcasestudy.png
+```{figure} ../Images/L9/cimplantcasestudy.png
 :label: cimplantcasestudy
 :alt: cimplantcasestudy Cochlear Implant
 :align: center
@@ -289,7 +289,7 @@ The real challenge to developing a cochlear implant is the [huge mapping of dyna
 
 Most importantly, looking at the dynamics electrical stimulation can achieve, it's really limited. The maximum number of different values that we can perceive as an effect of valuing the magnitude of stimulation is only 6-20 dB.
 
-```{figure} ..\Images\L9\dynamicrangemap.png
+```{figure} ../Images/L9/dynamicrangemap.png
 :label: dynamicrangemap
 :alt: dynamicrangemap Cochlear Implant
 :align: center
@@ -306,7 +306,7 @@ These system components combined enable use to perceive very loud and very faint
 
 **Dynamic range fitting** was implemented using a bunch of current mirrors that do scaling:
 
-```{figure} ..\Images\L9\CMdynamic.png
+```{figure} ../Images/L9/CMdynamic.png
 :label: CMdynamic
 :alt: CMdynamic Cochlear Implant
 :align: center
@@ -318,7 +318,7 @@ Most cochlear implants these days use BPFs, this is because they're easy to impl
 
 the actual filter of the ear can be seen [on the left](#filterarch), this is called the gamma tone response. We don't try to emulate this because it's actually too difficult and doesn't provide a good trade-off for human use.
 
-```{figure} ..\Images\L9\filterarch.png
+```{figure} ../Images/L9/filterarch.png
 :label: filterarch
 :alt: filterarch Cochlear Implant
 :align: center
@@ -330,7 +330,7 @@ The way the stimulator was created is you had a bunch of circuits, each one serv
 
 **This effectively implemented CIS** - and it allowed for simplistic increasing and decreasing of number of channels.
 
-```{figure} ..\Images\L9\stimulationFSM.png
+```{figure} ../Images/L9/stimulationFSM.png
 :label: stimulationFSM
 :alt: stimulationFSM Cochlear Implant
 :align: center
@@ -346,7 +346,7 @@ So obviously there are no wires exiting the body, so they needed to figure out a
 
 An [inductive system](#inductivesystem) was developed by which you could recharge the battery but also, via the carrier wave provided to the inductive system, re-program the device by sending a digital bitstream.
 
-```{figure} ..\Images\L9\inductivesystem.png
+```{figure} ../Images/L9/inductivesystem.png
 :label: inductivesystem
 :alt: inductivesystem Cochlear Implant
 :align: center
@@ -359,7 +359,7 @@ So [this plot here](#inductiveplot) shows the test signal.
 3. Then insert a bunch of 1s and 0s
 4. And then you could come up with an envelope that can detect 1s or 0s
 
-```{figure} ..\Images\L9\inductiveplot.png
+```{figure} ../Images/L9/inductiveplot.png
 :label: inductiveplot
 :alt: inductiveplot Cochlear Implant
 :align: center
@@ -369,7 +369,7 @@ So [this plot here](#inductiveplot) shows the test signal.
 
 [Here's](#actualchip) what the actual chip looked like. We have the analogue on one side and the digital on the other, to protect the analogue from the digital noise.
 
-```{figure} ..\Images\L9\actualchip.png
+```{figure} ../Images/L9/actualchip.png
 :label: actualchip
 :alt: actualchip Cochlear Implant
 :align: center
@@ -397,7 +397,7 @@ It's important to note that cochlear implants assume that the nerve that connect
 * Then they have an external device that transfers sound as a vibration through your skull
 * This vibration reaches the cochlear (which is surrounded by bone) and you can hear again
 
-```{figure} ..\Images\L9\boneanchor.png
+```{figure} ../Images/L9/boneanchor.png
 :label: boneanchor
 :alt: boneanchor Cochlear Implant
 :align: center
@@ -413,7 +413,7 @@ Say somebody has a tumour on that nerve between the cochlea and the brain:
 
 The devices used are called **ABIs**. These go to the auditory part of the brain and they put electrodes in and stimulate the brain directly.
 
-```{figure} ..\Images\L9\ABI.png
+```{figure} ../Images/L9/ABI.png
 :label: ABI
 :alt: ABI Cochlear Implant
 :align: center
@@ -427,7 +427,7 @@ This is one more bit of research, which is a type of implant. Here, instead of c
 * The hopes of this is that it will create better selectivity as it is a solution to the issue of current spreading
 * However the challenge is you're actually damaging the nerve by putting something in it
 
-```{figure} ..\Images\L9\INI.png
+```{figure} ../Images/L9/INI.png
 :label: INI
 :alt: INI Cochlear Implant
 :align: center
