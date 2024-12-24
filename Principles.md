@@ -34,7 +34,7 @@
 
 Now lets have a look at a general system...
 
-```{figure} \Images\L1\systemdiagram.png
+```{figure} /Images/L1/systemdiagram.png
 :label: systemd
 :alt: General System Diagram
 :align: center
@@ -67,7 +67,7 @@ Now lets have a look at a general system...
 
 ## Design Considerations for Medical Devices
 
-```{figure} \Images\L1\designcon.png
+```{figure} /Images/L1/designcon.png
 :label: systemcon
 :alt: Design Considerations for Med
 :align: center
