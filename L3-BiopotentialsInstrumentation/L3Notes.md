@@ -30,7 +30,7 @@ So let's return and have a look at where these action-potentials originate (See 
 
 We can think of the lipid membrane almost like a capacitor, because inside the cell it's full of enriched intracellular potassium ions and outside of the cell, enriched extracellular sodium ions. This insulating membrane with different charges constitutes a potential difference or EMF.
 
-```{figure} ..\Images\L3\labpotengraph.png
+```{figure} ../Images/L3/labpotengraph.png
 :label: labelledgraphpotential
 :alt: Labelled Potential Graph
 :align: center
@@ -38,7 +38,7 @@ We can think of the lipid membrane almost like a capacitor, because inside the c
 
 [Here](#actioncycle) you can see the action / generation of this spike visually:
 
-```{figure} ..\Images\L3\actioncyclediagram.png
+```{figure} ../Images/L3/actioncyclediagram.png
 :label: actioncycle
 :alt: Action Potential Graph and Diagram Cycle
 :align: center
@@ -54,7 +54,7 @@ So what is a **Bio-Potential**?
 
 We have seen already the [ranges of freq and signal strength of different biopotentials](#rng) and now we will explore them in greater detail, for example [their morphologies][#sigmorph]
 
-```{figure} ..\Images\L3\signalmorph.png
+```{figure} ../Images/L3/signalmorph.png
 :label: sigmorph
 :alt: Signal Morphologies for ECG, EMG and EEG
 :align: center
@@ -64,7 +64,7 @@ We have seen already the [ranges of freq and signal strength of different biopot
 
 Our heart pumps due to the rhythmic electrical activity to circulate oxygenated around our body. It all starts in the atrium and then our through the ventricles. We get an initial sinusoidal boom which resonates down into the rest of the heart, providing a superposition kind of effect, we can see this [here](#heartsig) in the final waveform.
 
-```{figure} ..\Images\L3\pqrst.png
+```{figure} ../Images/L3/pqrst.png
 :label: heartsig
 :alt: Signal Superposition for PQRST
 :align: center
@@ -95,7 +95,7 @@ So the PQRST complex refers to the characteristic waveform seen on an ECG, repre
 
 P-Q, Q-R-S, S-T segments are commonly used for diagnosis.
 
-```{figure} ..\Images\L3\pqrstdiagram.png
+```{figure} ../Images/L3/pqrstdiagram.png
 :label: pqrstdiagram
 :alt: PQRST Diagram
 :align: center
@@ -109,7 +109,7 @@ Well given that this is an electrical process, it should be of no suprise that t
 
 We can characterise this as the **cardiac vector**
 
-```{figure} ..\Images\L3\measuringECG.png
+```{figure} ../Images/L3/measuringECG.png
 :label: ECGmeasure
 :alt: Body Diagram of Heart Electrode Measurements for ECG
 :align: center
@@ -129,7 +129,7 @@ We can characterise this as the **cardiac vector**
 
 ECG has several applications such as diagnosis of ischemia (lack of blood flow), Arrhythmia (pre-cursor to heart attack), Conduction defects.
 
-```{figure} ..\Images\L3\heartproblems.png
+```{figure} ../Images/L3/heartproblems.png
 :label: ECGprob
 :alt: Heart Problems diagnosed by ECG
 :align: center
@@ -139,7 +139,7 @@ ECG has several applications such as diagnosis of ischemia (lack of blood flow),
 
 EEG measures the brain electric activity from the scalp, the measured signal results from the activity of billions of neurons. This is broken into various frequency bands for Beta, Alpha, Theta and Delta waves, these can be seen [here](#EEGbands).
 
-```{figure} ..\Images\L3\EEGfreqbands.png
+```{figure} ../Images/L3/EEGfreqbands.png
 :label: EEGbands
 :alt: Frequency bands of EEG
 :align: center
@@ -181,7 +181,7 @@ We also have some other bio-potentials that are touched on in this course:
 
 These are directly monitored from individual neurons in the brain through an implanted microelectrode array
 
-```{figure} ..\Images\L3\neuralspike.png
+```{figure} ../Images/L3/neuralspike.png
 :label: nspike
 :alt: Neural Spike
 :align: center
@@ -193,7 +193,7 @@ You can see from [these graphs](#nspike) that we see a similar action potential,
 
 Local field potentials is the average DC baseline activity measured from an implanted microelectrode. So essentially a measurement of constant activity. This is measured directly on top of the brain using an implant.
 
-```{figure} ..\Images\L3\LFP.png
+```{figure} ../Images/L3/LFP.png
 :label: LFPgraph
 :alt: LFP graphs
 :align: center
@@ -215,7 +215,7 @@ So now we've covered the basics of the bio-potentials we will be looking at, bel
 
 In order to measure bio-potentials we generally need to use contacts on the body, like an electrode. This signal then goes into an **amplifier**, which measures the potential and then it goes onto a filter of some kind. This has to be robust as to avoid noise.
 
-```{figure} ..\Images\L3\humancontactdiagram.png
+```{figure} ../Images/L3/humancontactdiagram.png
 :label: humancon
 :alt: Human Contact Circuit Diagram
 :align: center
@@ -235,7 +235,7 @@ CMMR is the ability of the amplifier to discard signals which are common to both
 
 The [general architecture](#genarch) of an ECG measurement system is as follows, this is **really important**:
 
-```{figure} ..\Images\L3\generalarch.png
+```{figure} ../Images/L3/generalarch.png
 :label: genarch
 :alt: Human Contact Circuit Diagram
 :align: center
@@ -263,7 +263,7 @@ Electrodes are basically conductive to the skin, they can be silver (usually in 
 
 Electrode grids for recording for the brain surface is called ECoG. This generally measures low-frequency EEG/LFP-like signals (individual neurons not observable)
 
-```{figure} ..\Images\L3\ECoG.png
+```{figure} ../Images/L3/ECoG.png
 :label: ECoG picture
 :alt: ECoG Picture
 :align: center
@@ -273,7 +273,7 @@ This is used to identify and localise areas of the brains causing seizures.
 
 Something we need to be very mindful of is the impedance consideration between the surface of the skin and the actual signal source we are measuring. We can approximate this to a [resistor capacitor network](#skinapproximation).
 
-```{figure} ..\Images\L3\skinapproximationcircuit.png
+```{figure} ../Images/L3/skinapproximationcircuit.png
 :label: skinapproximation
 :alt: Skin Approximation Circuit
 :align: center
@@ -281,7 +281,7 @@ Something we need to be very mindful of is the impedance consideration between t
 
 This is something we need to consider when making our instrumentation. [This is a reasonably equivalent circuit model](#equivalentmodel) that we use for the electrode tissue interface.
 
-```{figure} ..\Images\L3\equivalentcircuitmodel.png
+```{figure} ../Images/L3/equivalentcircuitmodel.png
 :label: equivalentmodel
 :alt: Equivalent Circuit Model for Electrode Tissue Interface
 :align: center
@@ -300,7 +300,7 @@ We need measuring instruments to have **higher impedance than electrode impedanc
 
 When designing we can treat the electrode-instrumentation interface as a simple RC circuit on the I/P of the amplifier.
 
-```{figure} ..\Images\L3\electrode-instrumentation-interface.png
+```{figure} ../Images/L3/electrode-instrumentation-interface.png
 :label: elec-intru-inter
 :alt: Electrode Instrumentation Interface
 :align: center
@@ -312,7 +312,7 @@ When designing we can treat the electrode-instrumentation interface as a simple 
 
 * Our **output impedance** $Z_{OUT}$ should be very low, so that we can drop the maximum voltage over the next stage load. So it can supply output even to very low resistive loads and not expend most of it on itself.
 
-```{figure} ..\Images\L3\impedancelevelcircuit.png
+```{figure} ../Images/L3/impedancelevelcircuit.png
 :label: impedancelvl
 :alt: Impedance Level Circuit
 :align: center
@@ -326,7 +326,7 @@ We note from the maths in [this diagram](#impedancelvl) that the input resistanc
 
 So let's look a bit at noise, starting from the **mains 50Hz noise**.
 
-```{figure} ..\Images\L3\mains50Hz.png
+```{figure} ../Images/L3/mains50Hz.png
 :label: mains50Hz
 :alt: Mains 50 Hz Noise Source
 :align: center
@@ -359,7 +359,7 @@ So if we get rid of the wires and integrate the circuit like a patch, current $i
 
 This causes a common mode voltage everywhere in the body ($V_cm$)
 
-```{figure} ..\Images\L3\commonmodenoise.png
+```{figure} ../Images/L3/commonmodenoise.png
 :label: commonmode
 :alt: Common Mode Noise Source
 :align: center
@@ -393,7 +393,7 @@ other, a potential difference appears across the electrodes known as the
 
 This is a source of noise and interference in biopotential measurements. It is a result of the change in distribution of the double layer of charge on the polarizable electrode interface because of movement. This changes the half cell potential of the electrode temporarily.
 
-```{figure} ..\Images\L3\motionartificat.png
+```{figure} ../Images/L3/motionartificat.png
 :label: motionart
 :alt: Motion Artifact Example
 :align: center
@@ -434,7 +434,7 @@ An integrated front-end amplifier for bio-potentials should:
 
 So we need to make an amplifier to set the voltage, the easiest amplifier we know is an opamp in a closed loop configuration.
 
-```{figure} ..\Images\L3\simpleopamp.png
+```{figure} ../Images/L3/simpleopamp.png
 :label: simpopamp
 :alt: Simple Opamp Circuits
 :align: center
@@ -443,7 +443,7 @@ This can give us the gain we need however it **lacks immunity to common mode sig
 
 We can use a **difference amplifier**. These are good for rejecting common mode signals, so we don't have to worry about the 50Hz noise.
 
-```{figure} ..\Images\L3\differenceampbasic.png
+```{figure} ../Images/L3/differenceampbasic.png
 :label: difampbas
 :alt: Simple Difference Amplifier Diagram
 :align: center
@@ -452,7 +452,7 @@ This amplifies the difference between $V_1$ and $V_2$ but rejects any common mod
 
 ### Differential Instrumentation Amplifier 1
 
-```{figure} ..\Images\L3\DIA1.png
+```{figure} ../Images/L3/DIA1.png
 :label: dia1
 :alt: Difference Amplifier 1 Diagram
 :align: center
@@ -469,7 +469,7 @@ So **CMRR is infinite!** However this is assuming the resistors are matched, and
 
 So how do we fix this? Well let's stick another stage in front of it which has a really high I/P impedance:
 
-```{figure} ..\Images\L3\newstage.png
+```{figure} ../Images/L3/newstage.png
 :label: nstage
 :alt: Difference Amplifier New Stage Diagram
 :align: center
@@ -477,14 +477,14 @@ So how do we fix this? Well let's stick another stage in front of it which has a
 
 So now we have really high I/P impedance from the opamps, we can then add this back to the previous circuit.
 
-```{figure} ..\Images\L3\stage2difamp.png
+```{figure} ../Images/L3/stage2difamp.png
 :label: ostage
 :alt: Difference Amplifier Original Stage Diagram
 :align: center
 ```
 Giving us [our final diagram](#dia2). This now has a **high I/P impedance** and **high CMRR**. The gain is normally **tuned by a variable resistor** in place of $R_1$.
 
-```{figure} ..\Images\L3\DIA2.png
+```{figure} ../Images/L3/DIA2.png
 :label: dia2
 :alt: Difference Amplifier 1 Diagram
 :align: center
@@ -498,7 +498,7 @@ Common mode interference would be completely rejected by the instrumentation amp
 
 **The idea being the Average of the $V_{CM}$ is inverted and driven back to the body via a reference electrode**
 
-```{figure} ..\Images\L3\rlegcircuit.png
+```{figure} ../Images/L3/rlegcircuit.png
 :label: rlegc
 :alt: Right Leg Circuit Diagram
 :align: center
@@ -531,7 +531,7 @@ This is because we need to remove DC and thus lets you add more gain in later st
 ```
 **NOTE:** We also describe the cut off frequency $f_c$ at the 3dB point, when the I/P signal is attenuated of half the power
 
-```{figure} ..\Images\L3\BPF.png
+```{figure} ../Images/L3/BPF.png
 :label: bpf
 :alt: BPF Freq Response
 :align: center
@@ -539,7 +539,7 @@ This is because we need to remove DC and thus lets you add more gain in later st
 
 We can use spectral analysis of the signal to determine the bandwidth. An estimate can also be derived by looking at the durations of the low and high frequency components of the signal.
 
-```{figure} ..\Images\L3\highlowfreq.png
+```{figure} ../Images/L3/highlowfreq.png
 :label: hlfreq
 :alt: Time to find freq
 :align: center
@@ -550,7 +550,7 @@ We can use spectral analysis of the signal to determine the bandwidth. An estima
 
 ### Filter Response Laplace
 
-```{figure} ..\Images\L3\filterresponselaplace.png
+```{figure} ../Images/L3/filterresponselaplace.png
 :label: laplace
 :alt: Laplace Filter Response
 :align: center
@@ -562,7 +562,7 @@ $Q$ factor : Determines the height and width of the peak of the frequency respon
 
 The RC filter has no active components, only passive. Therefore they require no power supply and there's no gain attenuation. However there is no buffering or high I/P impedance.
 
-```{figure} ..\Images\L3\RCFilters.png
+```{figure} ../Images/L3/RCFilters.png
 :label: rcf
 :alt: RC Filters
 :align: center
@@ -573,7 +573,7 @@ To prevent loading we add a voltage buffer op-amp between stages
 
 This is an active filter which can also amplify the signal (with a gain of $1+\frac{R_1}{R_2}$). This also does not do loading of successive stages. Unfortunately this is limited by the op-amp's frequency response.
 
-```{figure} ..\Images\L3\opampfilters.png
+```{figure} ../Images/L3/opampfilters.png
 :label: opampfilters
 :alt: Opamp Filters
 :align: center
@@ -583,7 +583,7 @@ This is an active filter which can also amplify the signal (with a gain of $1+\f
 
 These are relatively simple circuits which can realise 2nd order filters with a single op-amp. If we cascade these we can make **brick wall filters**. 
 
-```{figure} ..\Images\L3\sallenkey.png
+```{figure} ../Images/L3/sallenkey.png
 :label: skey
 :alt: Sallen Key Filters
 :align: center
@@ -597,13 +597,13 @@ By selecting equal components ($R_1=R_2$, $C_1=C_2$) there is no gain attenuatio
 
 These directly filter out 50/60Hz noise. BUT be careful that you don't filter out vital information if it is within the frequency bandwidth, therefore it's best to use only when you absolutely have to.
 
-```{figure} ..\Images\L3\notchfilter.png
+```{figure} ../Images/L3/notchfilter.png
 :label: notchfilter
 :alt: Notch Filters
 :align: center
 ```
 
-```{figure} ..\Images\L3\notchresponse.jpg
+```{figure} ../Images/L3/notchresponse.jpg
 :label: notchresponse
 :alt: Notch Filters Response
 :align: center
@@ -611,7 +611,7 @@ These directly filter out 50/60Hz noise. BUT be careful that you don't filter ou
 
 ### Final ECG
 
-```{figure} ..\Images\L3\ECGcircuit.png
+```{figure} ../Images/L3/ECGcircuit.png
 :label: ECGcircuit
 :alt: ECG Circuit
 :align: center
@@ -623,7 +623,7 @@ For very small Bio-potentials in the mV range we need a really high gain at the 
 
 The idea is that DC offset voltage on I/P can be so large that it saturates the amplifier, this makes it difficult to add lots of gain in front-end. The solution is to **capacitvely couple**
 
-```{figure} ..\Images\L3\accouple.png
+```{figure} ../Images/L3/accouple.png
 :label: accouple
 :alt: AC Coupled Amp Circuit
 :align: center
@@ -640,7 +640,7 @@ There are some **problems** with this method:
 
 The Harrison Amplifier is an example of a state of the art AC coupled instrumentation amplifier.
 
-```{figure} ..\Images\L3\Harrisonamp.png
+```{figure} ../Images/L3/Harrisonamp.png
 :label: harriscircuit
 :alt: AC Coupled Harrison Amp Circuit
 :align: center
@@ -658,7 +658,7 @@ Below is the complete TF, don't worry you don't have to derive:
 
 This network of capacitors and resistors produce a frequency response of a BPF as well.
 
-```{figure} ..\Images\L3\harrisonfreqresponse.png
+```{figure} ../Images/L3/harrisonfreqresponse.png
 :label: harrisfreqres
 :alt: AC Coupled Harrison Amp Freq Response
 :align: center
@@ -666,7 +666,7 @@ This network of capacitors and resistors produce a frequency response of a BPF a
 
 And we can also add a 2nd amplification stage
 
-```{figure} ..\Images\L3\harrison2stage.png
+```{figure} ../Images/L3/harrison2stage.png
 :label: harris2s
 :alt: AC Coupled Harrison Amp 2 Stage
 :align: center
